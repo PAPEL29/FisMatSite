@@ -1,11 +1,12 @@
 ---
 import Layout from '../layouts/Layout.astro';
-import '/css/personal.css';
 ---
 
 <Layout title="personal">
+    <link rel="stylesheet" href="/css/personal.css">
             <!-- HERO -->
-    <div class="instalaciones-hero">
+    <section>
+        <div class="instalaciones-hero">
         <span class="badge">
             <i class="fas fa-users"></i>
             Nuestro Equipo
@@ -15,6 +16,7 @@ import '/css/personal.css';
 
         
     </div>
+    </section>
 
 
 <section class="staff-section">
@@ -420,6 +422,6 @@ import '/css/personal.css';
 </section>
 
 
-    <script src="/public/js/personal.js" defer></script>
+    <script src="/js/personal.js" defer></script>
 
 </Layout>
