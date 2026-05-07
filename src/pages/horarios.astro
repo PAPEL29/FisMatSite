@@ -1,0 +1,110 @@
+---
+import Layout from '../layouts/MainLayout.astro';
+import '/public/css/horarios.css';
+---
+<Layout title="horarios">
+     <!-- HERO -->
+    <div class="instalaciones-hero">
+        
+        <h1>Horarios</h1>
+        <p>
+            Conoce tus horarios de clases asi como los horarios de tus profesores.
+        </p>
+
+        
+    </div>
+
+
+   <!-- GRID HORARIOS -->
+    <div class="horarios-grid">
+
+        <!-- CARD -->
+        <div class="horario-card blue">
+
+            <div class="horario-top">
+                <h3>Horarios de clases</h3>
+                <span class="grupo">Materias</span>
+            </div>
+
+            <div class="horario-info">
+                <p>
+                    Consulta los horarios de todas tus materias, organizados por semestre y grupo. Mantente al tanto de tus horarios para una mejor planificación académica.
+                </p>
+            </div>
+            <div>
+                <a href="https://www.fismat.umich.mx/src/avisos/horarios/horarios26-26_subgroups_days_horizontal.html">
+                    <button class="btn-horarios">
+                        Ver horarios
+                    </button>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- CARD -->
+        <div class="horario-card red">
+
+            <div class="horario-top">
+                <h3>Horarios de profesores</h3>
+                <span class="grupo">Materias</span>
+            </div>
+
+            <div class="horario-info">
+                <p>
+                    Consulta los horarios de atención y clases de tus profesores. Asegúrate de conocer sus horarios para aprovechar al máximo tus interacciones académicas.
+                </p>
+            </div>
+            <div>
+                <a href="https://www.fismat.umich.mx/src/avisos/horarios/horarios26-26_teachers_days_horizontal.html">
+                    <button class="btn-horarios">
+                        Ver horarios
+                    </button>
+                </a>
+            </div>
+
+        </div>
+
+        <!-- CARD -->
+        <div class="horario-card lightblue">
+
+            <div class="horario-top">
+                <h3>Horarios de Primer Semestre</h3>
+                <span class="grupo">Secciones varias </span>
+            </div>
+
+            <div class="horario-info">
+               <p> Si eres estudiantes de nuevo ingreso consulta aqui tus horarios. </p>
+            </div>
+
+            <div>
+                <a href="https://www.fismat.umich.mx/src/avisos/horarios/horarios26-26_groups_days_horizontal.html#table_2">
+                    <button class="btn-horarios">
+                        Ver horarios
+                    </button>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+
+
+        <div class="horarios-cta">
+
+        <h3>¿Necesitas los horarios completos?</h3>
+
+        <p>
+            Consulta el calendario académico completo.
+        </p>
+
+        <a href="https://www.fismat.umich.mx/src/avisos/horarios/">
+            <button class="btn-main">
+            Horarios
+        </button>
+        </a>
+
+    </div>
+   
+
+</Layout>

@@ -1,0 +1,333 @@
+
+/* HERO */
+.instalaciones-hero {
+    background:  #002147;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    padding-top: 100px;
+}
+
+.instalaciones-hero h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.instalaciones-hero p {
+    color: #cbd5f5;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* BADGE */
+.badge {
+    background: rgba(255,255,255,0.2);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* TAGS */
+.tags {
+    margin-top: 20px;
+}
+
+.tags span {
+    border: 1px solid white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 5px;
+    display: inline-block;
+}
+/*-----------------------------------termina formato principal y navbar----------------------------------------------------*/
+
+.distinguido h2{
+    color: #0f172a;
+    text-align: center;
+    margin-bottom: 5px;
+    margin-top: 20px;
+}
+.propositos h1{
+    color: #0f172a;
+    text-align: center;
+    padding-bottom: 30px;
+
+}
+.programa {
+    padding: 60px 40px;
+    background: #f8fafc;
+    color: #0f172a;
+}
+.curricular{
+    padding-right: 60px;
+    padding-left: 60px;
+    color: black;
+}
+
+.curricular  h2{
+    text-align: center;
+    padding: 20px;
+}
+/* TOP INFO */
+.top-info {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+}
+
+.info-box {
+    background: #e2e8f0;
+    padding: 25px;
+    border-radius: 15px;
+    text-align: center;
+}
+
+.info-box.blue { background: #5b8dc659; }
+
+/* AREAS */
+.areas {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.tags span {
+    background: #002147;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 20px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* CARDS */
+.cards {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+.cards-propositos {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+
+
+.card {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border-top: 3px solid #1e3a8a;
+    
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+.card.red {
+    border-top-color: #991b1b;
+}
+
+.card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* CONTENIDO OCULTO */
+.card-content1 {
+    max-height: 0;
+    overflow: hidden;
+    transition: 0.3s ease;
+    opacity: 0;
+}
+
+/* CUANDO SE ABRE */
+.card.active .card-content1 {
+    max-height: 200px;
+    opacity: 1;
+    margin-top: 10px;
+}
+.icon{
+    width: 40px; height: 40px;
+    background: #1e3a8a;
+    display: flex; align-items: center; justify-content: center;
+    border-radius: 5px; color: white;
+    margin-bottom: 15px;
+}
+
+/* GRID */
+.grid-bottom {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    margin-top: 30px;
+}
+
+.box {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    border-color: #010c1300;
+    border: 1px solid #e2e8f0;
+}
+
+/* BOTONES */
+.btn-main {
+    width: 100%;
+    background: #991b1b;
+    color: white;
+    padding: 10px;
+    border-radius: 8px;
+    border: none;
+    margin-top: 10px;
+}
+
+.btn-main:hover{
+    
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+    background-color: #c8c8c8;
+    color: #991b1b;
+    border: 1px solid #1e3a8a;
+
+
+}
+
+.btn-outline {
+    width: 100%;
+    border: 1px solid #1e3a8a;
+    padding: 10px;
+    border-radius: 8px;
+    margin-top: 10px;
+}
+
+.btn-outline:hover{
+    
+    transform: translateY(5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+
+}
+/* CTA */
+.cta {
+    margin-top: 40px;
+    background: #1e3a8a;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+    text-align: center;
+}
+.cta h2 {
+    margin-bottom: 15px;
+    color: white;
+}
+
+
+.cta-btn-1{
+    margin: 10px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+.cta-btn-2{
+    margin: 10px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+.cta-btn-3{
+    margin: 10px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    border: none;
+}
+
+
+
+.cta-btn-1:hover{
+    transform: translateY(5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.cta-btn-2:hover{
+    transform: translateY(5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+.cta-btn-3:hover{
+    transform: translateY(5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* --- ESTILOS DE LA TARJETA DESPLEGABLE ------------------ */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 2fr);
+    gap: 15px;
+    margin-top: 20px;
+}
+.lab-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.08);
+    overflow: hidden;
+    max-width: 450px;
+    margin: 20px auto;
+    border-top: 5px solid #0d2c4b; /* Azul Institucional */
+}
+.lab-card h2{
+    color: #0f172a;
+    margin-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+
+/* Contenido y Etiquetas */
+.card-content { padding: 25px; }
+.badges-row { display: flex; gap: 10px; margin-bottom: 15px; }
+.badge-blue { background: #0d2c4b; color: white; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; font-weight: bold; }
+.badge-outline { border: 1px solid #ddd; color: #777; padding: 4px 10px; border-radius: 4px; font-size: 0.75rem; }
+.facilities-section h1{
+    color: #0f172a;
+    text-align: center;
+    padding-bottom: 30px;
+}
+.summary { color: #555; font-size: 0.9rem; line-height: 1.5; margin-bottom: 20px; }
+
+/* Botón de Acción */
+.btn-read-more {
+    background: #0d2c4b; color: white; border: none;
+    padding: 10px 20px; border-radius: 6px;
+    cursor: pointer; font-weight: bold; font-size: 0.9rem;
+    transition: 0.3s;
+}
+.btn-read-more:hover { background: #1b3a61; }
+
+/* --- LÓGICA DEL ACORDEÓN / DESPLIEGUE --- */
+.collapsible-wrapper {
+    display: grid;
+    grid-template-rows: 0fr; /* Estado CERRADO */
+    transition: grid-template-rows 0.4s ease-out, opacity 0.3s;
+    opacity: 0;
+    overflow: hidden;
+}
+
+/* Clase que activa la apertura */
+.collapsible-wrapper.is-open {
+    grid-template-rows: 1fr; /* Estado ABIERTO */
+    opacity: 1;
+    margin-bottom: 20px;
+}
+
+.extra-content {
+    min-height: 0; /* Necesario para la animación de grid */
+    color: black;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+

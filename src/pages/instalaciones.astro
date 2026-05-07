@@ -1,0 +1,382 @@
+---
+import Layout from '../layouts/MainLayout.astro';
+import '/public/css/instalaciones.css';
+---
+
+<Layout title="Instalaciones">
+
+        <section class="instalaciones">
+
+    <!-- HERO -->
+    <div class="instalaciones-hero">
+        <span class="badge">Recorrido Virtual por Nuestras Instalaciones</span>
+        <h1>Nuestras Instalaciones</h1>
+        <p>
+            Descubre nuestros laboratorios de vanguardia y áreas comunes diseñadas para inspirar el aprendizaje y la investigación.
+        </p>
+
+        <div class="tags">
+            <a href="">
+                <button class="recorrido">
+                    Iniciar recorrido virtual
+                </button>
+            </a>
+            
+        </div>
+    </div>
+
+
+
+<section class="labs-section">
+    <div class="labs-header">
+        <h2>Laboratorios Especializados</h2>
+        <p>Instalaciones equipadas con tecnología de punta para experimentación e investigación</p>
+    </div>
+
+    <div class="labs-grid">
+        <div class="lab-card">
+            <div class="lab-image" style="background-image: url('lab-electro.jpg');">
+                <div class="lab-overlay">
+                    <span class="lab-icon"><i class="fas fa-bolt"></i></span>
+                    <h3>Laboratorio de Electromagnetismo</h3>
+                </div>
+            </div>
+            <div class="lab-info">
+                <div class="lab-badges">
+                    <span class="badge-blue">30 estudiantes</span>
+                    <span class="badge-outline">150 m²</span>
+                </div>
+                <p>Equipado con tecnología de última generación para el estudio de campos eléctricos y magnéticos, circuitos AC/DC, y propagación de ondas electromagnéticas.</p>
+                <div class="collapsible-wrapper is-collapsed">
+                    <div class="extra-content">
+                        <h4>Detalles Técnicos:</h4>
+                        <ul>
+                            <li>Mesas ópticas antivibratorias de última generación.</li>
+                            <li>Láseres de He-Ne y Nd:YAG ajustables.</li>
+                            <li>Sistemas de interferometría y difracción.</li>
+                        </ul>
+                        <p ><strong>6 proyectos de investigación activos</strong> | <strong>Actualización: 2024</strong>
+                        </p>
+                    </div>
+                </div>
+                        <button class="btn-LM" onclick="toggleCard(this)">
+                            <span>
+                                Leer más
+                            </span>
+                                
+                            
+                        </button>
+            </div>
+        </div>
+
+        <div class="lab-card border-red-top">
+            <div class="lab-image" style="background-image: url('lab-mecanica.jpg');">
+                <div class="lab-overlay overlay-red">
+                    <span class="lab-icon icon-red"><i class="fas fa-cog"></i></span>
+                    <h3>Laboratorio de Mecánica</h3>
+                </div>
+            </div>
+            <div class="lab-info">
+                <div class="lab-badges">
+                    <span class="badge-red">25 estudiantes</span>
+                    <span class="badge-outline">180 m²</span>
+                </div>
+                <p>Diseñado para experimentos de cinemática, dinámica, estática y mecánica de fluidos con instrumentación de precisión.</p>
+                <div class="collapsible-wrapper is-collapsed">
+                    <div class="extra-content">
+                        <h4>Detalles Técnicos:</h4>
+                        <ul>
+                            <li>Mesas ópticas antivibratorias de última generación.</li>
+                            <li>Láseres de He-Ne y Nd:YAG ajustables.</li>
+                            <li>Sistemas de interferometría y difracción.</li>
+                        </ul>
+                        <p ><strong>6 proyectos de investigación activos</strong> | <strong>Actualización: 2024</strong>
+                        </p>
+                    </div>
+                </div>
+                        <button class="btn-LM" onclick="toggleCard(this)">
+                            <span>
+                                Leer más
+                            </span>
+                                
+                            
+                        </button>
+            </div>
+        </div>
+
+        <div class="lab-card">
+            <div class="lab-image" style="background-image: url('/public/imagenes/labdeoptica.jpg');">
+                <div class="lab-overlay overlay-light-blue">
+                    <span class="lab-icon icon-light-blue"><i class="fas fa-eye"></i></span>
+                    <h3>Laboratorio de Óptica</h3>
+                </div>
+            </div>
+
+            <div class="lab-info">
+                <div class="lab-badges">
+                    <span class="badge-light-blue">20 estudiantes</span>
+                    <span class="badge-outline">120 m²</span>
+                </div>
+
+                <p >Instalación especializada en óptica geométrica, óptica física, fotónica y tecnologías láser con sistemas de alta precisión.</p>
+
+                <div class="collapsible-wrapper is-collapsed">
+                    <div class="extra-content">
+                        <h4>Detalles Técnicos:</h4>
+                        <ul>
+                            <li>Mesas ópticas antivibratorias de última generación.</li>
+                            <li>Láseres de He-Ne y Nd:YAG ajustables.</li>
+                            <li>Sistemas de interferometría y difracción.</li>
+                        </ul>
+                        <p ><strong>6 proyectos de investigación activos</strong> | <strong>Actualización: 2024</strong>
+                        </p>
+                    </div>
+                </div>
+                        <button class="btn-LM" onclick="toggleCard(this)">
+                            <span>
+                                Leer más
+                            </span>
+                                
+                            
+                        </button>
+                        
+                   
+            </div>
+        </div>
+
+        <div class="lab-card">
+            <div class="lab-image" style="background-image: url('/public/imagenes/labdeMac.jpg');">
+                <div class="lab-overlay overlay-dark-blue">
+                    <span class="lab-icon icon-dark-blue"><i class="fas fa-microchip"></i></span>
+                    <h3>Laboratorio de Computación Científica</h3>
+                </div>
+            </div>
+            <div class="lab-info">
+                <div class="lab-badges">
+                    <span class="badge-dark-blue">40 estudiantes</span>
+                    <span class="badge-outline">200 m²</span>
+                </div>
+                <p>Equipado con estaciones de trabajo de alto rendimiento para simulación numérica, modelado matemático y computación paralela.</p>
+                <div class="collapsible-wrapper is-collapsed">
+                    <div class="extra-content">
+                        <h4>Detalles Técnicos:</h4>
+                        <ul>
+                            <li>Mesas ópticas antivibratorias de última generación.</li>
+                            <li>Láseres de He-Ne y Nd:YAG ajustables.</li>
+                            <li>Sistemas de interferometría y difracción.</li>
+                        </ul>
+                        <p ><strong>6 proyectos de investigación activos</strong> | <strong>Actualización: 2024</strong>
+                        </p>
+                    </div>
+                </div>
+                        <button class="btn-LM" onclick="toggleCard(this)">
+                            <span>
+                                Leer más
+                            </span>
+                                
+                            
+                        </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section class="stats">
+
+    <div class="stats-grid">
+
+        <div class="stat-card blue">
+            <i data-lucide="medal"></i>  
+            <h2>4+</h2>
+            <p>Laboratorios Especializados</p>
+        </div>
+
+        <div class="stat-card red">
+            <i data-lucide="book-open-check"></i>    
+            <h2>650 </h2><p>m2</p>
+            <p>Área de Laboratorios</p>
+        </div>
+
+        <div class="stat-card lightblue">
+            <i data-lucide="users"></i> 
+            <h2>400%</h2> 
+            <p>Capacidad Total de alumnos</p>
+        </div>
+
+        <div class="stat-card dark">
+            <i data-lucide="user-round-plus"></i>  
+            <div>
+                <p >27/7</p>
+            </div>
+            <p>Acceso al sitio web</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- --------------------------------tercera seccion--------------------------------------------- -->
+<section class="labs-section">
+    <div class="labs-header">
+        <h2>Áreas Comunes</h2>
+        <p>Espacios diseñados para el bienestar y la convivencia de nuestra comunidad</p>
+    </div>
+
+    <div class="labs-grid">
+        <div class="lab-card">
+            <div class="lab-image" style="background-image: url('/public/imagenes/biblio_fismat.png');">
+                <div class="lab-overlay">
+                    <span class="lab-icon"><i class="fas fa-bolt"></i></span>
+                    <h3>Biblioteca Especializada</h3>
+                </div>
+            </div>
+            <div class="lab-info">
+                <div class="lab-badges">
+                    <span class="badge-blue">30 estudiantes</span>
+                    <span class="badge-outline">150 m²</span>
+                </div>
+                <p>Equipado con tecnología de última generación para el estudio de campos eléctricos y magnéticos, circuitos AC/DC, y propagación de ondas electromagnéticas.</p>
+                <div class="collapsible-wrapper is-collapsed">
+                    <div class="extra-content">
+                        <h4>Detalles Técnicos:</h4>
+                        <ul>
+                            <li>Mesas ópticas antivibratorias de última generación.</li>
+                            <li>Láseres de He-Ne y Nd:YAG ajustables.</li>
+                            <li>Sistemas de interferometría y difracción.</li>
+                        </ul>
+                        <p ><strong>6 proyectos de investigación activos</strong> | <strong>Actualización: 2024</strong>
+                        </p>
+                    </div>
+                </div>
+                        <button class="btn-LM" onclick="toggleCard(this)">
+                            <span>
+                                Leer más
+                            </span>
+                                
+                            
+                        </button>
+            </div>
+        </div>
+
+        <div class="lab-card border-red-top">
+            <div class="lab-image" style="background-image: url('lab-mecanica.jpg');">
+                <div class="lab-overlay overlay-red">
+                    <span class="lab-icon icon-red"><i class="fas fa-cog"></i></span>
+                    <h3>Áreas de Descanso y Bienestar</h3>
+                </div>
+            </div>
+            <div class="lab-info">
+                <div class="lab-badges">
+                    <span class="badge-red">25 estudiantes</span>
+                    <span class="badge-outline">180 m²</span>
+                </div>
+                <p>Diseñado para experimentos de cinemática, dinámica, estática y mecánica de fluidos con instrumentación de precisión.</p>
+                <div class="collapsible-wrapper is-collapsed">
+                    <div class="extra-content">
+                        <h4>Detalles Técnicos:</h4>
+                        <ul>
+                            <li>Mesas ópticas antivibratorias de última generación.</li>
+                            <li>Láseres de He-Ne y Nd:YAG ajustables.</li>
+                            <li>Sistemas de interferometría y difracción.</li>
+                        </ul>
+                        <p ><strong>6 proyectos de investigación activos</strong> | <strong>Actualización: 2024</strong>
+                        </p>
+                    </div>
+                </div>
+                        <button class="btn-LM" onclick="toggleCard(this)">
+                            <span>
+                                Leer más
+                            </span>
+                                
+                            
+                        </button>
+            </div>
+        </div>
+
+        <div class="lab-card">
+            <div class="lab-image" style="background-image: url('/public/imagenes/Auditoriofismat.jpg');">
+                <div class="lab-overlay overlay-light-blue">
+                    <span class="lab-icon icon-light-blue"><i class="fas fa-eye"></i></span>
+                    <h3>Auditorio Principal</h3>
+                </div>
+            </div>
+            <div class="lab-info">
+                <div class="lab-badges">
+                    <span class="badge-light-blue">20 estudiantes</span>
+                    <span class="badge-outline">120 m²</span>
+                </div>
+                <p>Instalación especializada en óptica geométrica, óptica física, fotónica y tecnologías láser con sistemas de alta precisión.</p>
+                <div class="collapsible-wrapper is-collapsed">
+                    <div class="extra-content">
+                        <h4>Detalles Técnicos:</h4>
+                        <ul>
+                            <li>Mesas ópticas antivibratorias de última generación.</li>
+                            <li>Láseres de He-Ne y Nd:YAG ajustables.</li>
+                            <li>Sistemas de interferometría y difracción.</li>
+                        </ul>
+                        <p ><strong>6 proyectos de investigación activos</strong> | <strong>Actualización: 2024</strong>
+                        </p>
+                    </div>
+                </div>
+                        <button class="btn-LM" onclick="toggleCard(this)">
+                            <span>
+                                Leer más
+                            </span>
+                                
+                            
+                        </button>
+            </div>
+        </div>
+
+        <div class="lab-card">
+            <div class="lab-image" style="background-image: url('/public/imagenes/casilleros_fismat.png');">
+                <div class="lab-overlay overlay-dark-blue">
+                    <span class="lab-icon icon-dark-blue"><i class="fas fa-microchip"></i></span>
+                    <h3>Áreas de Casilleros y estudio</h3>
+                </div>
+            </div>
+            <div class="lab-info">
+                <div class="lab-badges">
+                    <span class="badge-dark-blue">40 estudiantes</span>
+                    <span class="badge-outline">200 m²</span>
+                </div>
+                <p>Equipado con estaciones de trabajo de alto rendimiento para simulación numérica, modelado matemático y computación paralela.</p>
+                <div class="collapsible-wrapper is-collapsed">
+                    <div class="extra-content">
+                        <h4>Detalles Técnicos:</h4>
+                        <ul>
+                            <li>Mesas ópticas antivibratorias de última generación.</li>
+                            <li>Láseres de He-Ne y Nd:YAG ajustables.</li>
+                            <li>Sistemas de interferometría y difracción.</li>
+                        </ul>
+                        <p ><strong>6 proyectos de investigación activos</strong> | <strong>Actualización: 2024</strong>
+                        </p>
+                    </div>
+                </div>
+                        <button class="btn-LM" onclick="toggleCard(this)">
+                            <span>
+                                Leer más
+                            </span>
+                                
+                            
+                        </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+    <section class="equipos">
+         <!-- CTA -->
+    <div class="equipos-cta">
+        <h3>¿Quieres conocer mejor nuestra Facultad?</h3>
+        <a href="https://chat.whatsapp.com/EsPIgv2Lps3D1z6bB9BJFd?mode=gi_t">
+            <button class="btn-main">Conoce más</button>
+        </a>
+    </div>
+    </section>
+
+    <script src="/public/js/instalaciones.js" defer></script>
+</Layout>

@@ -1,0 +1,425 @@
+---
+import Layout from '../layouts/MainLayout.astro';
+import '/public/css/personal.css';
+---
+
+<Layout title="personal">
+            <!-- HERO -->
+    <div class="instalaciones-hero">
+        <span class="badge">
+            <i class="fas fa-users"></i>
+            Nuestro Equipo
+        </span>
+        <h2>Profesores y Personal</h2>
+        <p>Académicos e investigadores de excelencia comprometidos con la formación de científicos</p>
+
+        
+    </div>
+
+
+<section class="staff-section">
+    
+
+    <div class="tabs-container">
+        <button class="tab-btn active" onclick="openTab(event, 'profesores')">Profesores</button>
+        <button class="tab-btn" onclick="openTab(event, 'administrativo')">Personal Administrativo</button>
+    </div>
+    <div id="profesores" class="tab-content active">
+        <div class="staff-grid">
+            <!-- empieza profesor 1 -->
+            <div class="staff-card">
+                <div class="profesor-1-circle">
+                    <i class="fa-solid fa-user"></i>
+                </div>
+                <h3>Dra. Karina Mariela Figueroa Mora</h3>
+                <p class="staff-rank">Profesora e investigadora de Tiempo completo</p>
+                    
+                <div class="staff-tags">
+                    <span class="tag-specialty">Computación</span>
+                    <span class="tag-sni"><i class="fas fa-award"></i> SNI III</span>
+                </div>
+                <div class="staff-contact">
+                    <p><i class="far fa-envelope"></i>karina.figueroa.umich.mx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Oficina: 20</p>
+                    <p><i class="fas fa-book"></i> 85 publicaciones</p>
+                </div>
+                <div class="specialties-row">
+                    <span>Algorithms in general</span>
+                    <span>Information retrieval</span>
+                    <span>Metric databases</span>
+                </div>
+                <a href="https://computo.fismat.umich.mx/~karina/">
+                    <button class="btn-profile">Ver perfil</button>
+                </a>
+            </div>
+            <!-- empieza profesor 2 -->
+            <div class="staff-card">
+                <div class="profesor-2-circle">
+                    
+                </div>
+                <h3>Dr. Cuauhtémoc Rivera-loaiza</h3>
+                <p class="staff-rank">Profesor Asociado</p>
+                <div class="staff-tags">
+                    <span class="tag-specialty blue">Ciencias de la computación.</span>
+                    <span class="tag-sni"><i class="fas fa-award"></i></span>
+                </div>
+                <div class="staff-contact">
+                    <p><i class="far fa-envelope"></i> cuauhtemoc.rivera@umich.mx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Oficina: 20</p>
+                    
+                </div>
+                <div class="specialties-row">
+                    <span>Interacción Humano-Computadora,</span>
+                    <span>Diseño</span>
+                    <span>Recuperación de Información</span>
+                </div>
+                <a href="http://computo.fismat.umich.mx/~crivera/">
+                    <button class="btn-profile">Ver perfil</button>
+                </a>
+            </div>
+            <!-- empieza profesor 3-->
+            <div class="staff-card">
+                <div class="profesor-4-circle">
+                    
+                </div>
+                <h3>Dr. José Gerardo Tinoco Ruíz</h3>
+                <p class="staff-rank">Profesora Asociada</p>
+                <div class="staff-tags">
+                    <span class="tag-specialty blue">Matemáticas Aplicadas</span>
+                    <span class="tag-sni"><i class="fas fa-award"></i> SNI II</span>
+                </div>
+                <div class="staff-contact">
+                    <p><i class="far fa-envelope"></i> p.lopez@fcfym.edu.mx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Oficina: ED-205</p>
+                    <p><i class="fas fa-book"></i> 62 publicaciones</p>
+                </div>
+                <div class="specialties-row">
+                    <span>Análisis Numérico</span>
+                    <span>Ecuaciones Diferenciales</span>
+                    <span>Modelado Matemático</span>
+                </div>
+                <a href="">
+                    <button class="btn-profile">Ver perfil</button>
+                </a>
+            </div>
+            <!-- empieza profesor 5 -->
+            <div class="staff-card">
+                <div class="profesor-5-circle">
+                    
+                </div>
+                <h3>Fernando Hernández-Hernández</h3>
+                <p class="staff-rank">Profesor Asociado</p>
+                <div class="staff-tags">
+                    <span class="tag-specialty blue">Matemáticas Aplicadas</span>
+                    <span class="tag-sni"><i class="fas fa-award"></i> SNI II</span>
+                </div>
+                <div class="staff-contact">
+                    <p><i class="far fa-envelope"></i> p.lopez@fcfym.edu.mx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Oficina: ED-205</p>
+                    <p><i class="fas fa-book"></i> 62 publicaciones</p>
+                </div>
+                <div class="specialties-row">
+                    <span>Topología General </span>
+                    <span>Teoría de Conjuntos</span>
+                    
+                </div>
+                <a href="https://computo.fismat.umich.mx/~fhernandez/">
+                    <button class="btn-profile">Ver perfil</button>
+                </a>
+            </div>
+            <!-- empieza profesor 6 -->
+            <div class="staff-card">
+                <div class="profesor-5-circle">
+                    
+                </div>
+                <h3>Dra. Patricia López</h3>
+                <p class="staff-rank">Profesora Asociada</p>
+                <div class="staff-tags">
+                    <span class="tag-specialty blue">Matemáticas Aplicadas</span>
+                    <span class="tag-sni"><i class="fas fa-award"></i> SNI II</span>
+                </div>
+                <div class="staff-contact">
+                    <p><i class="far fa-envelope"></i> p.lopez@fcfym.edu.mx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Oficina: ED-205</p>
+                    <p><i class="fas fa-book"></i> 62 publicaciones</p>
+                </div>
+                <div class="specialties-row">
+                    <span>Análisis Numérico</span>
+                    <span>Ecuaciones Diferenciales</span>
+                    <span>Modelado Matemático</span>
+                </div>
+                <a href="">
+                    <button class="btn-profile">Ver perfil</button>
+                </a>
+            </div>
+            <!-- empieza profesor 7 -->
+            <div class="staff-card">
+                <div class="profesor-7-circle">
+                    
+                </div>
+                <h3>Dra. Patricia López</h3>
+                <p class="staff-rank">Profesora Asociada</p>
+                <div class="staff-tags">
+                    <span class="tag-specialty blue">Matemáticas Aplicadas</span>
+                    <span class="tag-sni"><i class="fas fa-award"></i> SNI II</span>
+                </div>
+                <div class="staff-contact">
+                    <p><i class="far fa-envelope"></i> p.lopez@fcfym.edu.mx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Oficina: ED-205</p>
+                    <p><i class="fas fa-book"></i> 62 publicaciones</p>
+                </div>
+                <div class="specialties-row">
+                    <span>Análisis Numérico</span>
+                    <span>Ecuaciones Diferenciales</span>
+                    <span>Modelado Matemático</span>
+                </div>
+                <a href="">
+                    <button class="btn-profile">Ver perfil</button>
+                </a>
+            </div>
+            <!-- empieza profesor 8 -->
+            <div class="staff-card">
+                <div class="profesor-5-circle">
+                    
+                </div>
+                <h3>Dra. Patricia López</h3>
+                <p class="staff-rank">Profesora Asociada</p>
+                <div class="staff-tags">
+                    <span class="tag-specialty blue">Matemáticas Aplicadas</span>
+                    <span class="tag-sni"><i class="fas fa-award"></i> SNI II</span>
+                </div>
+                <div class="staff-contact">
+                    <p><i class="far fa-envelope"></i> p.lopez@fcfym.edu.mx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Oficina: ED-205</p>
+                    <p><i class="fas fa-book"></i> 62 publicaciones</p>
+                </div>
+                <div class="specialties-row">
+                    <span>Análisis Numérico</span>
+                    <span>Ecuaciones Diferenciales</span>
+                    <span>Modelado Matemático</span>
+                </div>
+                <a href="">
+                    <button class="btn-profile">Ver perfil</button>
+                </a>
+            </div>
+            <!-- empieza profesor 9 -->
+            <div class="staff-card">
+                <div class="profesor-5-circle">
+                    
+                </div>
+                <h3>Dra. Patricia López</h3>
+                <p class="staff-rank">Profesora Asociada</p>
+                <div class="staff-tags">
+                    <span class="tag-specialty blue">Matemáticas Aplicadas</span>
+                    <span class="tag-sni"><i class="fas fa-award"></i> SNI II</span>
+                </div>
+                <div class="staff-contact">
+                    <p><i class="far fa-envelope"></i> p.lopez@fcfym.edu.mx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Oficina: ED-205</p>
+                    <p><i class="fas fa-book"></i> 62 publicaciones</p>
+                </div>
+                <div class="specialties-row">
+                    <span>Análisis Numérico</span>
+                    <span>Ecuaciones Diferenciales</span>
+                    <span>Modelado Matemático</span>
+                </div>
+                <a href="">
+                    <button class="btn-profile">Ver perfil</button>
+                </a>
+            </div>
+            <!-- empieza profesor 10 -->
+            <div class="staff-card">
+                <div class="profesor-5-circle">
+                    
+                </div>
+                <h3>Dra. Patricia López</h3>
+                <p class="staff-rank">Profesora Asociada</p>
+                <div class="staff-tags">
+                    <span class="tag-specialty blue">Matemáticas Aplicadas</span>
+                    <span class="tag-sni"><i class="fas fa-award"></i> SNI II</span>
+                </div>
+                <div class="staff-contact">
+                    <p><i class="far fa-envelope"></i> p.lopez@fcfym.edu.mx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Oficina: ED-205</p>
+                    <p><i class="fas fa-book"></i> 62 publicaciones</p>
+                </div>
+                <div class="specialties-row">
+                    <span>Análisis Numérico</span>
+                    <span>Ecuaciones Diferenciales</span>
+                    <span>Modelado Matemático</span>
+                </div>
+                <a href="">
+                    <button class="btn-profile">Ver perfil</button>
+                </a>
+            </div>
+            <!-- empieza profesor 11 -->
+            <div class="staff-card">
+                <div class="profesor-5-circle">
+                    
+                </div>
+                <h3>Dra. Patricia López</h3>
+                <p class="staff-rank">Profesora Asociada</p>
+                <div class="staff-tags">
+                    <span class="tag-specialty blue">Matemáticas Aplicadas</span>
+                    <span class="tag-sni"><i class="fas fa-award"></i> SNI II</span>
+                </div>
+                <div class="staff-contact">
+                    <p><i class="far fa-envelope"></i> p.lopez@fcfym.edu.mx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Oficina: ED-205</p>
+                    <p><i class="fas fa-book"></i> 62 publicaciones</p>
+                </div>
+                <div class="specialties-row">
+                    <span>Análisis Numérico</span>
+                    <span>Ecuaciones Diferenciales</span>
+                    <span>Modelado Matemático</span>
+                </div>
+                <a href="">
+                    <button class="btn-profile">Ver perfil</button>
+                </a>
+            </div>
+            <!-- empieza profesor 12 -->
+            <div class="staff-card">
+                <div class="profesor-5-circle">
+                    
+                </div>
+                <h3>Dra. Patricia López</h3>
+                <p class="staff-rank">Profesora Asociada</p>
+                <div class="staff-tags">
+                    <span class="tag-specialty blue">Matemáticas Aplicadas</span>
+                    <span class="tag-sni"><i class="fas fa-award"></i> SNI II</span>
+                </div>
+                <div class="staff-contact">
+                    <p><i class="far fa-envelope"></i> p.lopez@fcfym.edu.mx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Oficina: ED-205</p>
+                    <p><i class="fas fa-book"></i> 62 publicaciones</p>
+                </div>
+                <div class="specialties-row">
+                    <span>Análisis Numérico</span>
+                    <span>Ecuaciones Diferenciales</span>
+                    <span>Modelado Matemático</span>
+                </div>
+                <a href="">
+                    <button class="btn-profile">Ver perfil</button>
+                </a>
+            </div>
+            <!-- empieza profesor 13 -->
+            <div class="staff-card">
+                <div class="profesor-5-circle">
+                    
+                </div>
+                <h3>Dra. Patricia López</h3>
+                <p class="staff-rank">Profesora Asociada</p>
+                <div class="staff-tags">
+                    <span class="tag-specialty blue">Matemáticas Aplicadas</span>
+                    <span class="tag-sni"><i class="fas fa-award"></i> SNI II</span>
+                </div>
+                <div class="staff-contact">
+                    <p><i class="far fa-envelope"></i> p.lopez@fcfym.edu.mx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Oficina: ED-205</p>
+                    <p><i class="fas fa-book"></i> 62 publicaciones</p>
+                </div>
+                <div class="specialties-row">
+                    <span>Análisis Numérico</span>
+                    <span>Ecuaciones Diferenciales</span>
+                    <span>Modelado Matemático</span>
+                </div>
+                <a href="">
+                    <button class="btn-profile">Ver perfil</button>
+                </a>
+            </div>
+            
+        </div>
+    </div>
+
+    <div id="administrativo" class="tab-content">
+        
+        <div class="staff-grid">
+            <div class="staff-card">
+                <div class="administrativo-1-circle">
+                    
+                </div>
+                <h3>Dr. Roberto Sánchez</h3>
+                <p class="staff-rank">Profesor Titular</p>
+                    
+                <div class="staff-tags">
+                    <span class="tag-specialty">Física Teórica</span>
+                    <span class="tag-sni"><i class="fas fa-award"></i> SNI III</span>
+                </div>
+                <div class="staff-contact">
+                    <p><i class="far fa-envelope"></i> r.sanchez@fcfym.edu.mx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Oficina: ED-301</p>
+                    <p><i class="fas fa-book"></i> 85 publicaciones</p>
+                </div>
+                <div class="specialties-row">
+                    <span>Mecánica Cuántica</span>
+                    <span>Teoría de Campos</span>
+                    <span>Física de Partículas</span>
+                </div>
+                <a href="">
+                    <button class="btn-profile">Ver perfil</button>
+                </a>
+            </div>
+            <div class="staff-card">
+                <div class="administrativo-1-circle">
+                    
+                </div>
+                <h3>Dr. Roberto Sánchez</h3>
+                <p class="staff-rank">Profesor Titular</p>
+                    
+                <div class="staff-tags">
+                    <span class="tag-specialty">Física Teórica</span>
+                    <span class="tag-sni"><i class="fas fa-award"></i> SNI III</span>
+                </div>
+                <div class="staff-contact">
+                    <p><i class="far fa-envelope"></i> r.sanchez@fcfym.edu.mx</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Oficina: ED-301</p>
+                    <p><i class="fas fa-book"></i> 85 publicaciones</p>
+                </div>
+                <div class="specialties-row">
+                    <span>Mecánica Cuántica</span>
+                    <span>Teoría de Campos</span>
+                    <span>Física de Partículas</span>
+                </div>
+                <a href="">
+                    <button class="btn-profile">Ver perfil</button>
+                </a>
+            </div>
+        </div>
+</section>
+
+<section class="stats">
+
+    <div class="stats-grid">
+
+        <div class="stat-card dark">
+            <i class="fa-solid fa-clock"></i>
+            <h2>85+</h2>
+            <p>Profesores de tiempo completo</p>
+        </div>
+
+        <div class="stat-card red">
+            <i class="fa-solid fa-medal"></i>
+            <h2>900</h2>
+            <p>Publicaciones anuales</p>
+        </div>
+
+        <div class="stat-card dark">
+            <i class="fa-solid fa-user-graduate"></i>
+            <h2>92%</h2>
+            <p>Con grado de Doctor</p>
+        </div>
+
+        <div class="stat-card red">
+            <i class="fa-solid fa-award"></i> 
+            <h2>45+</h2>
+            <p>Miembros SNI</p>
+        </div>
+
+    </div>
+
+</section>
+
+
+    <script src="/public/js/personal.js" defer></script>
+
+</Layout>

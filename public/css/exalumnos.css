@@ -1,0 +1,304 @@
+
+.instalaciones-hero{
+    background:  #002147;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    padding-top: 100px;
+}
+
+
+
+.instalaciones-hero h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.instalaciones-hero p {
+    color: #cbd5f5;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* BADGE */
+.badge {
+    background: rgba(255,255,255,0.2);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* TAGS */
+.tags {
+    margin-top: 20px;
+}
+
+.tags span {
+    border: 1px solid white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/*-----------------------------------egresados parte 1
+----------------------------------------------------*/
+.egresados {
+    padding: 60px 40px;
+    background: #f8fafc;
+    text-align: center;
+}
+
+/* HEADER */
+.egresados-header h2 {
+    color: #0f172a;
+    margin: 10px 0;
+}
+
+.egresados-header p {
+    color: #64748b;
+}
+
+/* GRID */
+.egresados-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+
+/* CARDS */
+.eg-card {
+    color: black;
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    border: 1px solid #e2e8f0;
+    border-top: 4px solid;
+}
+.eg-card:hover{
+     transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+
+
+.eg-card h3 {
+    font-size: 24px;
+}
+
+.eg-card p {
+    font-size: 13px;
+    color: #64748b;
+}
+
+/* COLORES */
+.eg-card.blue { border-color: #002147; }
+.eg-card.red { border-color: #a22035; }
+
+/* CHIPS */
+.chips span {
+    display: inline-block;
+    background: #e2e8f0;
+    padding: 4px 8px;
+    border-radius: 6px;
+    margin: 3px;
+    font-size: 12px;
+}
+
+/* CHARTS */
+.charts {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.chart-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+}
+
+/*-----------------------------------egresados segunda parte----------------------------------------------------*/
+.success-stories {
+    padding: 80px 10%;
+    background: #fff;
+    text-align: center;
+}
+
+.section-title h2 { font-size: 2rem; margin-bottom: 40px; color: #0d2c4b; }
+
+/* Grid de Historias */
+.stories-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 30px;
+    margin-bottom: 60px;
+}
+
+.story-card {
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+    text-align: left;
+}
+
+.story-img { height: 200px; background-size: cover; background-position: center; }
+
+.story-info { padding: 25px; }
+
+.story-badge { font-size: 0.7rem; padding: 4px 10px; border-radius: 4px; color: white; margin-bottom: 10px; display: inline-block; }
+.bg-navy { background: #0d2c4b; }
+
+.read-more { color: #5ba2da; text-decoration: none; font-size: 0.85rem; font-weight: bold; }
+
+/* Tag central */
+.research-highlight-tag { margin: 60px 0 20px; }
+.tag-blue { background: #0d2c4b; color: white; padding: 10px 25px; border-radius: 25px; font-size: 0.9rem; }
+
+/* Grid de Tesis (2 columnas) */
+.thesis-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 25px;
+}
+
+.thesis-card {
+    display: flex;
+    background: white;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    transition: 0.3s;
+}
+
+.thesis-card:hover { box-shadow: 0 5px 15px rgba(0,0,0,0.1); }
+
+.thesis-thumb { width: 100px; height: 100px; border-radius: 8px; object-fit: cover; margin-right: 20px; }
+
+.thesis-details h4 { font-size: 1.1rem; color: #0d2c4b; margin: 10px 0; }
+
+.pdf-link { color: #a11d33; text-decoration: none; font-size: 0.8rem; display: block; margin-top: 10px; }
+
+/* Mobile */
+@media (max-width: 850px) {
+    .thesis-grid { grid-template-columns: 1fr; }
+}
+/*-----------------------------------mapa del sitio----------------------------------------------------*/
+.map-section {
+    padding: 60px 40px;
+    background: #f8fafc;
+    text-align: center;
+}
+
+/* HEADER */
+.map-header h2 {
+    color: #0f172a;
+    margin: 10px 0;
+}
+
+.map-header p {
+    color: #64748b;
+}
+
+/* CONTENEDOR */
+.map-container {
+    background: white;
+    border-radius: 16px;
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    margin-top: 30px;
+}
+.map-container:hover{
+     transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+/* MAPA PLACEHOLDER */
+.map-placeholder {
+    height: 250px;
+    background: #e2e8f0;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #475569;
+    font-size: 14px;
+}
+
+/* STATS */
+.map-stats {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.map-stats div {
+    background: #f1f5f9;
+    padding: 15px;
+    border-radius: 8px;
+}
+
+.map-stats h3 {
+    color: #0f172a;
+}
+
+.map-stats p {
+    font-size: 12px;
+    color: #64748b;
+}
+
+/* CTA */
+.map-cta {
+    margin-top: 30px;
+    background: #a22035;
+    color: white;
+    padding: 30px;
+    border-radius: 12px;
+}
+.map-cta:hover{
+     transform: translateY(-5px);
+    box-shadow: 0 20px 40px rgba(0,0,0,0.12);
+}
+
+.map-cta p {
+    margin: 10px 0;
+}
+
+/* BOTONES */
+.cta-buttons {
+    margin-top: 15px;
+}
+
+.btn-primary {
+    background: #1e3a8a;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.btn-primary:hover {
+    background: #ffffff;
+    color : #002147;
+}
+
+.btn-secondary {
+    background: white;
+    color: #991b1b;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn-secondary:hover {
+    background: #d43a3a;
+    color: white;
+}

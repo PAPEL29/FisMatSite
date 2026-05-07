@@ -1,0 +1,432 @@
+---
+import Layout from '../layouts/MainLayout.astro';
+import '/public/css/admisiones.css';
+---
+<Layout title="Admisiones">
+            <!-- HERO -->
+    <div class="admiciones-hero">
+        <span class="badge">Bienvenidos</span>
+        <h1>Nuevo ingreso</h1>
+        <p>
+           Información esencial para iniciar tu trayectoria en la Facultad de Ciencias Físico-Matemáticas
+        </p>
+
+        <div class="tags">
+            <span>Proceso de admisión</span>
+            
+        </div>
+    </div>
+
+     <!-- ══════════ PASOS DEL PROCESO ══════════ -->
+  <section class="steps-section">
+ 
+    <!-- 1. Registro en Línea -->
+    <div class="step-card">
+      <div class="step-num c1">1</div>
+      <div class="step-body">
+        <div class="step-head">
+          <span class="step-title">Registro en Línea</span>
+          <span class="step-date red">15 de Julio</span>
+        </div>
+        <p class="step-desc">Completa tu registro en el portal de admisiones con tus datos personales y académicos.</p>
+        <div class="step-reqs">
+          <div class="req-label">Requisitos:</div>
+          <ul>
+            <li>Acta de nacimiento</li>
+            <li>CURP</li>
+            <li>Certificado de bachillerato</li>
+            <li>4 fotografías</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- 2. Pago de Examen -->
+    <div class="step-card">
+      <div class="step-num c2">2</div>
+      <div class="step-body">
+        <div class="step-head">
+          <span class="step-title">Pago de Examen</span>
+          <span class="step-date blue">20 de Julio</span>
+        </div>
+        <p class="step-desc">Realiza el pago del derecho a examen de admisión ($350 MXN).</p>
+        <div class="step-reqs">
+          <div class="req-label">Requisitos:</div>
+          <ul>
+            <li>Comprobante de registro</li>
+            <li>Formato de pago</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- 3. Examen de Admisión -->
+    <div class="step-card">
+      <div class="step-num c3">3</div>
+      <div class="step-body">
+        <div class="step-head">
+          <span class="step-title">Examen de Admisión</span>
+          <span class="step-date red">28 de Julio</span>
+        </div>
+        <p class="step-desc">Presenta el examen de conocimientos en matemáticas, física y habilidad verbal.</p>
+        <div class="step-reqs">
+          <div class="req-label">Requisitos:</div>
+          <ul>
+            <li>Pase de ingreso</li>
+            <li>Identificación oficial</li>
+            <li>Lápiz del No. 2</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- 4. Publicación de Resultados -->
+    <div class="step-card">
+      <div class="step-num c4">4</div>
+      <div class="step-body">
+        <div class="step-head">
+          <span class="step-title">Publicación de Resultados</span>
+          <span class="step-date blue">5 de Agosto</span>
+        </div>
+        <p class="step-desc">Consulta los resultados en el portal de admisiones.</p>
+        <div class="step-reqs">
+          <div class="req-label">Requisitos:</div>
+          <ul>
+            <li>Número de folio de examen</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- 5. Curso Propedéutico -->
+    <div class="step-card">
+      <div class="step-num c5">5</div>
+      <div class="step-body">
+        <div class="step-head">
+          <span class="step-title">Curso Propedéutico</span>
+          <span class="step-date red">5-16 de Agosto</span>
+        </div>
+        <p class="step-desc">Asiste al curso propedéutico obligatorio de 2 semanas.</p>
+        <div class="step-reqs">
+          <div class="req-label">Requisitos:</div>
+          <ul>
+            <li>Carta de aceptación</li>
+            <li>Comprobante de inscripción</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+ 
+    <!-- 6. Inscripción Oficial -->
+    <div class="step-card">
+      <div class="step-num c6">6</div>
+      <div class="step-body">
+        <div class="step-head">
+          <span class="step-title">Inscripción Oficial</span>
+          <span class="step-date blue">18-20 de Agosto</span>
+        </div>
+        <p class="step-desc">Completa tu inscripción y pago del primer semestre.</p>
+        <div class="step-reqs">
+          <div class="req-label">Requisitos:</div>
+          <ul>
+            <li>Documentación completa</li>
+            <li>Pago de colegiatura</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+ 
+  </section>
+ 
+  <!-- ══════════ HORARIOS DEL CURSO PROPEDÉUTICO ══════════ -->
+  <section class="horarios-section">
+    <h2 class="horarios-title">Horarios del Curso Propedéutico y de inducción </h2>
+ 
+    <div class="horarios-grid">
+ 
+      <!-- Semana 1 -->
+      <div class="semana-card">
+        <div class="semana-header">
+          <span class="semana-badge">
+            Curso de inducción
+          </span>
+          <span class="semana-dates">
+            1-3 Julio 2026
+          </span>
+        </div>
+        <div class="semana-name">
+          Curso inducción 
+        </div>
+ 
+        <div class="curso-item">
+          <div class="curso-name">
+            Matemáticas Básicas
+          </div>
+          <div class="curso-meta">
+            <div class="meta-row">
+              <!-- Clock icon -->
+              <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zm1 11H7v-2h4V7h2v6z"/></svg>
+              Lun-Vie 8:00-12:00
+            </div>
+            <div class="meta-row aula">
+              <!-- Location icon -->
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+              Aula A-101
+            </div>
+            <div class="meta-row prof">
+              <!-- Person icon -->
+              <svg viewBox="0 0 24 24"><path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v2h20v-2c0-3.3-6.7-5-10-5z"/></svg>
+              Dr. Roberto Sánchez
+            </div>
+          </div>
+        </div>
+ 
+        <div class="curso-item">
+          <div class="curso-name">
+            Introducción a la Física
+          </div>
+          <div class="curso-meta">
+            <div class="meta-row">
+              <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zm1 11H7v-2h4V7h2v6z"/></svg>
+              Lun-Vie 13:00-16:00
+            </div>
+            <div class="meta-row aula">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+              Aula B-203
+            </div>
+            <div class="meta-row prof">
+              <svg viewBox="0 0 24 24"><path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v2h20v-2c0-3.3-6.7-5-10-5z"/></svg>
+              Dr. Miguel Torres
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+      <!-- Semana 2 -->
+      <div class="semana-card">
+        <div class="semana-header">
+          <span class="semana-badge s2">
+            Curso Propedéutico
+          </span>
+          <span class="semana-dates">
+            6-17 de Julio y 3-7 Agosto 2026
+          </span>
+        </div>
+        <div class="semana-name">
+          Semana 1
+        </div>
+ 
+        <div class="curso-item">
+          <div class="curso-name">
+            Metodología de Estudio
+          </div>
+          <div class="curso-meta">
+            <div class="meta-row">
+              <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zm1 11H7v-2h4V7h2v6z"/></svg>
+              Lun-Mié 8:00-11:00
+            </div>
+            <div class="meta-row aula">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+              Aula A-305
+            </div>
+            <div class="meta-row prof">
+              <svg viewBox="0 0 24 24"><path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v2h20v-2c0-3.3-6.7-5-10-5z"/></svg>
+              Dra. Carmen Ruiz
+            </div>
+          </div>
+        </div>
+        <div class="semana-name">
+          Semana 2
+        </div>
+        <div class="curso-item">
+          <div class="curso-name">
+            Herramientas Computacionales
+          </div>
+          <div class="curso-meta">
+            <div class="meta-row">
+              <svg viewBox="0 0 24 24"><path d="M12 2a10 10 0 1 0 0 20A10 10 0 0 0 12 2zm1 11H7v-2h4V7h2v6z"/></svg>
+              Jue-Vie 9:00-14:00
+            </div>
+            <div class="meta-row aula">
+              <svg viewBox="0 0 24 24"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 1 1 0-5 2.5 2.5 0 0 1 0 5z"/></svg>
+              Aula LAB-C1
+            </div>
+            <div class="meta-row prof">
+              <svg viewBox="0 0 24 24"><path d="M12 12c2.7 0 5-2.3 5-5s-2.3-5-5-5-5 2.3-5 5 2.3 5 5 5zm0 2c-3.3 0-10 1.7-10 5v2h20v-2c0-3.3-6.7-5-10-5z"/></svg>
+              Ing. Alberto Castro
+            </div>
+          </div>
+        </div>
+      </div>
+ 
+    </div>
+  </section>
+
+
+
+    <!-- ----------------------------------seccion primera------------------------------------------------------>
+     <section class="admision">
+
+    <!-- HEADER -->
+    <div class="adm-header">
+        <span class="badge-in blue">Inscripciones</span>
+        <h2>Proceso de inscripcion</h2>
+        <p>Conoce los requisitos y fechas importantes</p>
+    </div>
+
+    <!-- TOP GRID -->
+    <div class="adm-grid">
+
+        <!-- FECHAS -->
+        <div class="adm-card">
+            <h3>Fechas Importantes</h3>
+
+            <div class="fecha blue">Apertura de registro <span>15 Enero</span></div>
+            <div class="fecha blue">Cierre de registro <span>28 Febrero</span></div>
+            <div class="fecha blue">Examen de admisión <span>15 Marzo</span></div>
+            <div class="fecha blue">Resultados <span>30 Marzo</span></div>
+
+            <a href="https://umich.mx/superior/">
+              <button class="btn-main">Registrarme Ahora</button>
+            </a>
+        </div>
+        
+
+        <!-- REQUISITOS -->
+        <div class="adm-card">
+
+            <h3>Requisitos</h3>
+
+            <div class="accordion">
+                <div class="acc-item active">
+                    <div class="acc-title">Licenciatura</div>
+                    <div class="acc-content">
+                        <p>✔ Certificado</p>
+                        <p>✔ CURP</p>
+                        <p>✔ Fotografías</p>
+                    </div>
+                </div>
+
+                <div class="acc-item">
+                    <div class="acc-title">Maestría</div>
+                    <div class="acc-content">
+                        <p>✔ Título universitario</p>
+                        <p>✔ CV</p>
+                    </div>
+                </div>
+
+                <div class="acc-item">
+                    <div class="acc-title">Doctorado</div>
+                    <div class="acc-content">
+                        <p>✔ Maestría previa</p>
+                        <p>✔ Proyecto</p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+    
+
+    <!-- PROCESO --------------------------------------->
+    <section class="adm-proceso">
+        <div class="admision-wrapper">
+  <h2 class="admision-title">Proceso de Inscripcion</h2>
+ 
+  <div class="steps-container">
+ 
+    <!-- Paso 1: Registro -->
+    <div class="step">
+      <div class="step-icon dark-blue">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8l-6-6zm-1 1.5L18.5 9H13V3.5zM6 20V4h5v7h7v9H6z"/>
+          <rect x="8" y="13" width="8" height="1.5" rx="0.75"/>
+          <rect x="8" y="16" width="6" height="1.5" rx="0.75"/>
+        </svg>
+      </div>
+      <div class="step-label">1. Registro</div>
+      <div class="step-desc">Completa tu solicitud en línea y adjunta los documentos requeridos</div>
+    </div>
+ 
+    <!-- Paso 2: Examen de Admisión -->
+    <div class="step">
+      <div class="step-icon dark-red">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <path d="M19 3h-1V1h-2v2H8V1H6v2H5C3.9 3 3 3.9 3 5v16c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm0 18H5V8h14v13z"/>
+          <rect x="7"  y="10" width="2" height="2"/>
+          <rect x="11" y="10" width="2" height="2"/>
+          <rect x="15" y="10" width="2" height="2"/>
+          <rect x="7"  y="14" width="2" height="2"/>
+          <rect x="11" y="14" width="2" height="2"/>
+          <rect x="15" y="14" width="2" height="2"/>
+        </svg>
+      </div>
+      <div class="step-label">2. Examen de Admisión</div>
+      <div class="step-desc">Presenta el examen de conocimientos en matemáticas, física y razonamiento</div>
+    </div>
+ 
+    <!-- Paso 3: Entrevista -->
+    <div class="step">
+      <div class="step-icon dark-blue">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="8" r="3.5"/>
+          <path d="M12 13c-4 0-7 2-7 4.5V19h14v-1.5c0-2.5-3-4.5-7-4.5z"/>
+          <circle cx="19" cy="7" r="2.5"/>
+          <path d="M21 11.5c-1-.4-1.9-.5-2-.5-.4 0-.8.1-1.2.2.7.8 1.2 1.8 1.2 3.3V15h3v-1c0-1.2-.9-2.1-1-2.5z"/>
+        </svg>
+      </div>
+      <div class="step-label">3. Entrevista</div>
+      <div class="step-desc">Entrevista personal con el comité académico (posgrados)</div>
+    </div>
+ 
+    <!-- Paso 4: Resultados -->
+    <div class="step">
+      <div class="step-icon dark-red">
+        <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="12" cy="12" r="9" fill="none" stroke="#fff" stroke-width="2"/>
+          <path d="M7.5 12.5l3 3 6-6" fill="none" stroke="#fff" stroke-width="2.2"
+                stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </div>
+      <div class="step-label">4. Resultados</div>
+      <div class="step-desc">Conoce los resultados y completa tu inscripción</div>
+    </div>
+ 
+  </div>
+</div>
+    </section>
+
+    <!-- CARDS -->
+    <div class="adm-cards">
+
+        <div class="cta blue">
+            <h4>Becas</h4>
+            <p>Apoyo económico para estudiantes</p>
+            <a href="">
+              <button class="adm-btn">Conocer Becas</button>
+            </a>
+        </div>
+
+        <div class="cta red">
+            <h4>Movilidad</h4>
+            <p>Intercambios internacionales</p>
+            <a href="">
+              <button class="adm-btn red">Ver Convenios</button>
+            </a>
+        </div>
+
+        <div class="cta lightblue">
+            <h4>Orientación</h4>
+            <p>Agenda con asesores académicos</p>
+            <a href="">
+              <button class="adm-btn lightblue">Agendar Cita</button>
+            </a>
+        </div>
+
+    </div>
+
+</section>
+<script src="/public/js/admiciones.js" defer></script>
+
+</Layout>

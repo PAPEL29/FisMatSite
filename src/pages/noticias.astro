@@ -1,0 +1,132 @@
+---
+import Layout from '../layouts/MainLayout.astro';
+import '/public/css/noticias.css';
+---
+<Layout title="noticias">
+    <div class="instalaciones-hero">
+        <span class="badge">Noticias y Eventos</span>
+        <h1>Mantente Informado</h1>
+        <p>
+            Conoce las últimas noticias, eventos y logros de nuestra comunidad académica.
+        </p>
+
+        
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <section class="noticias">
+
+    <div class="noticias-grid">
+
+        <!-- IZQUIERDA (NOTICIAS) -->
+        <div class="noticias-left">
+
+            <h2>Últimas Noticias</h2>
+
+            <!-- NOTICIA -->
+            <div class="noticia-card">
+                <img src="img/noticia1.jpg">
+
+                <div class="noticia-info">
+                    <span class="tag blue">Destacado</span>
+                    <h3>Medalla en Olimpiada de Física</h3>
+                    <p>Estudiante obtiene oro representando al país</p>
+                    <span class="fecha">
+                        <i data-lucide="calendar"></i>  10 Octubre 2025</span>
+                    <a href="#"> 
+                        <button class="btn-LM">
+                            <span>Leer más</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- NOTICIA -->
+            <div class="noticia-card small">
+                <img src="img/noticia2.jpg">
+
+                <div class="noticia-info">
+                    <span class="tag blue">Infraestructura</span>
+                    <h3>Nuevo laboratorio cuántico</h3>
+                    <span class="fecha">
+                        <i data-lucide="calendar"></i>  5 Octubre 2025</span>
+                    <a href="#"> 
+                        <button class="btn-LM">
+                            <span>Leer más</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+            <!-- NOTICIA -->
+            <div class="noticia-card small">
+                <img src="img/noticia3.jpg">
+
+                <div class="noticia-info">
+                    <span class="tag blue">Convenios</span>
+                    <h3>Convenio con MIT</h3>
+                    <span class="fecha">
+                        <i data-lucide="calendar"></i>  
+                        28 Septiembre 2025</span>
+                    <a href="#"> 
+                        <button class="btn-LM">
+                            <span>Leer más</span>
+                        </button>
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- DERECHA (EVENTOS) -->
+        <div class="eventos">
+
+            <h2>Próximos Eventos</h2>
+
+            <div class="evento-card red">
+                <h3>Coloquio IA y Física</h3>
+                <p><i data-lucide="calendar"></i>   20 Octubre</p>
+                <a href="">
+                    <button>Más información</button>
+                </a>
+            </div>
+
+            <div class="evento-card red">
+                <h3>Semana de la Ciencia</h3>
+                <p><i data-lucide="calendar"></i>   25-29 Octubre</p>
+                <a href="">
+                    <button>Más información</button>
+                </a>
+            </div>
+
+            <div class="evento-card red">
+                <h3>Taller Programación</h3>
+                <p><i data-lucide="calendar"></i>   2 Noviembre</p>
+                <a href="">
+                    <button>Más información</button>
+                </a>    
+            </div>
+
+            <a href="https://chat.whatsapp.com/EsPIgv2Lps3D1z6bB9BJFd?mode=gi_t">
+                <button class="btn-main">
+                    <i data-lucide="message-circle-more"></i>  
+                    Ve noticias directamente en tu WhatsApp
+                </button>
+            </a>
+
+        </div>
+
+    </div>
+
+</section>
+
+    <script src="/public/js/noticias.js" defer></script>
+</Layout>

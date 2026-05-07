@@ -1,0 +1,235 @@
+
+/* HERO */
+.instalaciones-hero {
+    background:   #002147;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    padding-top: 100px;
+}
+
+.instalaciones-hero h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.instalaciones-hero p {
+    color: #cbd5f5;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* BADGE */
+.badge {
+    background: rgba(255,255,255,0.2);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* TAGS */
+.tags {
+    margin-top: 20px;
+}
+
+.tags span {
+    border: 1px solid white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/*-----------------------------------termina formato principal y navbar----------------------------------------------------*/
+.reglamento {
+    padding: 60px 40px;
+    background: #f8fafc;
+    color: #0f172a;
+}
+
+/* GRID */
+.reglamento-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+/* MAIN */
+.reglamento-main {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+}
+
+.update {
+    font-size: 13px;
+    color: #64748b;
+}
+
+/* ACCORDION */
+.acc-title {
+    padding: 12px;
+    cursor: pointer;
+    border-bottom: 1px solid #e2e8f0;
+}
+
+.acc-content {
+    display: none;
+    padding: 10px;
+}
+
+.acc-item.active .acc-content {
+    display: block;
+}
+
+/* ARTICULOS */
+.articulo {
+    background: #f1f5f9;
+    padding: 10px;
+    border-radius: 8px;
+    margin-bottom: 10px;
+}
+
+/* SIDEBAR */
+.reglamento-side {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    text-align: center;
+}
+
+.side-card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.side-card.red {
+    border-top: 3px solid #a22035;
+}
+
+
+ 
+.side-card button {
+ position: relative;
+ border: none;
+ background: transparent;
+ padding: 0;
+ cursor: pointer;
+ outline-offset: 4px;
+ transition: filter 250ms;
+ user-select: none;
+ touch-action: manipulation;
+}
+
+.shadow {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ border-radius: 12px;
+ background: hsl(0deg 0% 0% / 0.25);
+ will-change: transform;
+ transform: translateY(2px);
+ transition: transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+.edge {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ border-radius: 12px;
+ background: linear-gradient(
+    to left,
+    hsl(340deg 100% 16%) 0%,
+    hsl(340deg 100% 32%) 8%,
+    hsl(340deg 100% 32%) 92%,
+    hsl(340deg 100% 16%) 100%
+  );
+}
+
+.front {
+ display: block;
+ position: relative;
+ padding: 12px 27px;
+ border-radius: 12px;
+ font-size: 1.1rem;
+ color: white;
+ background: #a22035;
+ will-change: transform;
+ transform: translateY(-4px);
+ transition: transform
+    600ms
+    cubic-bezier(.3, .7, .4, 1);
+}
+
+button:hover {
+ filter: brightness(110%);
+}
+
+button:hover .front {
+ transform: translateY(-6px);
+ transition: transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+button:active .front {
+ transform: translateY(-2px);
+ transition: transform 34ms;
+}
+
+button:hover .shadow {
+ transform: translateY(4px);
+ transition: transform
+    250ms
+    cubic-bezier(.3, .7, .4, 1.5);
+}
+
+button:active .shadow {
+ transform: translateY(1px);
+ transition: transform 34ms;
+}
+
+button:focus:not(:focus-visible) {
+ outline: none;
+}
+
+
+/* -------------------------------------*/
+
+/* DOWNLOAD */
+.download-card {
+    background: #1e3a8a;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.btn-main {
+    width: 100%;
+    margin-top: 10px;
+    background: #3b82f6;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    color: white;
+}
+.btn-main:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+
+

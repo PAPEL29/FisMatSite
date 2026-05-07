@@ -1,0 +1,462 @@
+
+
+/*-----------------------------------ininico posgrado ----------------------------------------------------*/
+.counter {
+    display: inline-block;
+    min-width: 80px; /* Ajusta según el tamaño de tus números */
+    font-variant-numeric: tabular-nums; /* Mantiene los números alineados */
+}
+.posgrado {
+    background: #f8fafc;
+}
+
+/* HERO */
+.posgrado-hero {
+    background: #002147;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    padding-top: 100px;
+}
+
+.posgrado-hero h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.posgrado-hero p {
+    color: #cbd5f5;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* BADGE */
+.badge {
+    background: rgba(255,255,255,0.2);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* TAGS */
+.tags {
+    margin-top: 20px;
+}
+
+.tags span {
+    border: 1px solid white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/* PROGRAMAS */
+.programas {
+    padding: 60px 40px;
+    text-align: center;
+}
+
+.programas h2 {
+    color: #0f172a;
+}
+
+.programas p {
+    color: #64748b;
+    margin-bottom: 30px;
+}
+
+/* GRID */
+.programas-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+/* CARDS */
+.programa-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    border: 1px solid #e2e8f0;
+    border-left: 4px solid;
+    transition: 0.2s;
+}
+
+.programa-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.programa-card h3 {
+    margin-bottom: 10px;
+    color: #0f172a;
+}
+
+.programa-card ul {
+    list-style: none;
+    margin-bottom: 15px;
+}
+
+.programa-card li {
+    font-size: 14px;
+    color: #475569;
+    margin-bottom: 5px;
+}
+
+/* COLORES */
+.programa-card.blue {
+    border-left-color: #1e3a8a;
+}
+
+.programa-card.red {
+    border-left-color: #a22035;
+}
+
+.programa-card.lightblue {
+    border-left-color: #3b82f6;
+}
+
+.programa-card.dark {
+    border-left-color: #334155;
+}
+
+/* BOTONES */
+.btn-outline {
+    border: 1px solid #1e3a8a;
+    color: #1e3a8a;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: transparent;
+    cursor: pointer;
+}
+.btn-outline:hover {
+    background: #1e3a8a;
+    color: white;
+}
+
+.btn-outline.red {
+    border-color: #a22035;
+    color: #a22035;
+}
+.btn-outline.red:hover {
+    background: #a22035;
+    color: white;
+}
+
+
+
+/*-----------------------------------segunda parte de posgrado ----------------------------------------------------*/
+.research-section {
+    padding: 80px 10%;
+    background-color: #ffffff;
+}
+
+.research-header {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.research-badge-top {
+    background: #a11d33;
+    color: white;
+    padding: 6px 18px;
+    border-radius: 20px;
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.category-title {
+    font-size: 1.8rem;
+    color: #0d2c4b;
+    margin-bottom: 30px;
+    border-bottom: 3px solid #0d2c4b;
+    display: inline-block;
+}
+
+/* Contenedor de la Tarjeta Horizontal */
+.research-card {
+    display: flex;
+    align-items: center;
+    background: #fff;
+    border: 1px solid #e9ecef;
+    border-radius: 12px;
+    padding: 25px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.03);
+    transition: transform 0.2s ease;
+}
+
+.research-card:hover {
+    transform: scale(1.01);
+}
+
+/* Bordes laterales de colores */
+.border-dark-blue { border-left: 6px solid #0d2c4b; }
+.border-red { border-left: 6px solid #a22035; }
+.border-light-blue { border-left: 6px solid #5ba2da; }
+
+/* Icono a la izquierda */
+.card-icon-box {
+    background: #f8f9fa;
+    width: 60px;
+    height: 60px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    color: #0d2c4b;
+    margin-right: 25px;
+    flex-shrink: 0;
+}
+
+/* Contenido Principal */
+.card-main-content {
+    flex-grow: 1;
+}
+
+.card-header-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.card-header-row h4 {
+    font-size: 1.25rem;
+    color: #333;
+}
+
+.card-main-content p {
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+/* Estilo de las etiquetas (Badges) */
+.card-tags {
+    display: flex;
+    gap: 8px;
+}
+
+.tag-outline, .tag-outline-red, .tag-outline-blue {
+    padding: 4px 12px;
+    border-radius: 15px;
+    font-size: 0.75rem;
+    font-weight: 600;
+    border: 1px solid;
+}
+
+.tag-outline { border-color: #0d2c4b; color: #0d2c4b; }
+.tag-outline-red { border-color: #a22035; color: #a11d33; }
+.tag-outline-blue { border-color: #5ba2da; color: #5ba2da; }
+
+/* Ajuste responsivo */
+@media (max-width: 768px) {
+    .research-card { flex-direction: column; align-items: flex-start; }
+    .card-icon-box { margin-bottom: 15px; }
+    .card-header-row { flex-direction: column; align-items: flex-start; gap: 10px; }
+}
+/*-----------------------------------tercera parte de posgrado ----------------------------------------------------*/
+.labs {
+    padding: 60px 40px;
+    background: #f8fafc;
+    text-align: center;
+}
+
+/* HEADER */
+.labs-header h2 {
+    color: #0f172a;
+    margin: 10px 0;
+}
+
+.labs-header p {
+    color: #64748b;
+}
+
+/* BADGE */
+.badge.blue {
+    background: #3b82f6;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* GRID */
+.labs-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* CARD */
+.lab-card {
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    text-align: left;
+    border: 1px solid #e2e8f0;
+    border-top: 4px solid;
+    transition: 0.2s;
+}
+
+.lab-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.lab-card h3 {
+    margin-bottom: 8px;
+    color: #0f172a;
+}
+
+.lab-card p {
+    font-size: 13px;
+    color: #64748b;
+    margin-bottom: 15px;
+}
+
+/* INFO */
+.lab-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 12px;
+    color: #475569;
+}
+
+/* COLORES */
+.lab-card.blue { border-color: #1e3a8a; }
+.lab-card.red { border-color: #a22035; }
+.lab-card.lightblue { border-color: #3b82f6; }
+.lab-card.dark { border-color: #334155; }
+
+/* BADGE SMALL */
+.badge.small {
+    background: #e2e8f0;
+    color: #0f172a;
+    padding: 4px 8px;
+    border-radius: 10px;
+}
+
+.badge.small.red {
+    background: #fee2e2;
+    color: #991b1b;
+}
+
+.badge.small.blue {
+    background: #dbeafe;
+    color: #1e3a8a;
+}
+
+.badge.small.dark {
+    background: #e2e8f0;
+}
+
+/*-----------------------------------cuarta parte de posgrado ----------------------------------------------------*/
+.grad-stats-section {
+    padding: 80px 10%;
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.indicators-badge {
+    background: #0d2c4b;
+    color: white;
+    padding: 6px 15px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+
+.stats-header h2 {
+    font-size: 2.2rem;
+    color: #333;
+    margin: 15px 0;
+}
+
+.stats-header p {
+    color: #777;
+    margin-bottom: 50px;
+}
+
+/* Rejilla de 3 columnas */
+.grad-stats-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+    margin-bottom: 50px;
+}
+
+.grad-card {
+    background: #fff;
+    border: 1px solid #eee;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.02);
+}
+
+/* Bordes superiores de colores */
+.border-navy { border-top: 4px solid #0d2c4b; }
+.border-red { border-top: 4px solid #a22035; }
+.border-blue { border-top: 4px solid #5ba2da; }
+
+.grad-icon { font-size: 1.5rem; color: #888; margin-bottom: 15px; }
+.grad-num { font-size: 2rem; font-weight: bold; color: #0d2c4b; }
+.grad-label { font-size: 0.85rem; color: #666; margin-top: 5px; }
+
+/* Variaciones de color para texto e iconos */
+.icon-red { color: #a22035; }
+.num-red { color: #a22035; }
+.icon-blue { color: #5ba2da; }
+.num-blue { color: #5ba2da; }
+
+/* Bloque de reportes */
+.reports-box {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 700px;
+    margin: 0 auto;
+}
+
+.reports-icon { font-size: 2rem; color: #5ba2da; margin-bottom: 15px; }
+.reports-box h4 { font-size: 1.1rem; color: #333; margin-bottom: 25px; }
+
+.reports-btns {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-report-dark, .btn-report-red {
+    padding: 10px 20px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    transition: 0.3s;
+}
+
+.btn-report-dark { border: 1.5px solid #0d2c4b; background: white; color: #0d2c4b; }
+.btn-report-dark:hover { background: #0d2c4b; color: white; }
+
+.btn-report-red { border: 1.5px solid #a22035; background: white; color: #a22035; }
+.btn-report-red:hover { background: #a22035; color: white; }
+
+/* Mobile */
+@media (max-width: 900px) {
+    .grad-stats-grid { grid-template-columns: 1fr 1fr; }
+}
+@media (max-width: 600px) {
+    .grad-stats-grid { grid-template-columns: 1fr; }
+    .reports-btns { flex-direction: column; }
+}

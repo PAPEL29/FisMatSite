@@ -1,0 +1,335 @@
+---
+import Layout from '../layouts/MainLayout.astro';
+import '/public/css/manualdelestudiante.css';
+---
+
+<Layout title="manualdelestudiante">
+            <!-- HERO -->
+    <div class="instalaciones-hero">
+        <span class="badge">Guía Estudiantil</span>
+        <h1>Manual del Estudiante
+</h1>
+        <p>
+            Tu guía completa para aprovechar al máximo tu experiencia universitaria
+        </p>
+
+        
+    </div>
+    <!-----------------------mini header-------------------------------->
+
+<div class="mini-header">
+
+    <button class="tab active" data-tab="life">Vida Académica
+    <button class="tab" data-tab="services">Infraestructura FisMat</button>
+    <button class="tab" data-tab="development">Servicios y Recursos</button>
+    <button class="tab" data-tab="wellness">Bienestar Estudiantil</button>
+
+</div>
+
+<!-- CONTENIDO 1--------------------->
+<div class="tab-content active" id="life">
+    <section class="vida">
+
+    <!-- HEADER -->
+    <div class="vida-header">
+        <div class="icono">
+            <i class="fas fa-graduation-cap"></i> 
+        </div>
+        <h2>Vida Académica</h2>
+    </div>
+
+    <!-- GRID INFO -->
+    <div class="vida-grid">
+
+        <div class="vida-card">
+            <h3>Plan de Estudios</h3>
+            <p>El plan de estudios está diseñado para proporcionar una formación integral en ciencias físico-matemáticas. Comprende materias obligatorias, optativas y un trabajo de titulación.</p>
+        </div>
+
+        <div class="vida-card">
+            <h3>Sistema de Créditos</h3>
+            <p>Se requieren 356 créditos para completar la licenciatura.</p>
+        </div>
+
+        <div class="vida-card">
+            <h3>Tutorías Académicas</h3>
+            <p>Existen programas de tutorias, dirigidos por porfesores de la Facultad con los cuales puedes obteer la ayuda necesaria para cualquier materia.</p>
+        </div>
+
+        <div class="vida-card">
+            <h3>Movilidad Estudiantil</h3>
+            <p>Intercambios en universidades nacionales e internacionales.</p>
+        </div>
+
+    </div>
+
+    <!-- CARDS INFERIORES -->
+    <div class="vida-extra">
+
+        <div class="extra-card">
+            <i  class="fas fa-book-open"></i>  
+            <h3>Programas Por Materia</h3>
+            <p>Conoce el contenido tematico de tus materias</p>
+            <a href="public/Recursos/ContenidoProgramasMateriasLCFM.pdf">
+                <button class="btn-outline">Ver más</button>
+            </a>
+        </div>
+
+        <div class="extra-card red">
+            <i class="fas fa-book"></i>  
+            <h3>Modelo Educativo</h3>
+            <p>Recomendaciones académicas</p>
+            <a href="public/Recursos/MODELO_EDUCATIVO_UMSNH_2022.pdf">
+                <button class="btn-outline red">Ver más</button>
+            </a>
+        </div>
+
+        <div class="extra-card blue">
+            <i  class="fas fa-download"></i>  
+            <h3> Manual Completo</h3>
+            <p>Descarga el manual en PDF</p>
+            <a href="public/Recursos/manual.pdf">
+                <button class="btn-main">Descargar</button>
+            </a>
+        </div>
+
+    </div>
+
+</section>
+</div>
+
+
+<!-- CONTENIDO 2--------------------->
+<div class="tab-content" id="services">
+    <section class="servicios">
+
+    <!-- HEADER -->
+    <div class="servicios-header">
+        <div class="icono">
+            <i class="fas fa-building"></i>  
+        </div>
+        <h2>Infraestructura FisMat</h2>
+    </div>
+
+    <!-- GRID INFO -->
+    <div class="servicios-grid">
+
+        <div class="servicios-card">
+            <h3>Biblioteca</h3>
+            <p>1,294 volúmenes, que impactan al plan y programa de
+estudio de la licenciatura en Físico Matemáticas.
+TESIS 852 volúmenes, las cuales consisten en trabajos de
+investigación de egresados de esta licenciatura.
+TESIS DIGITALES 211 volúmenes, las cuales consisten en trabajos de
+investigación de egresados de esta licenciatura.</p>
+        </div>
+
+        <div class="servicios-card">
+            <h3>Laboratorios</h3>
+            <p>Se requieren 350 créditos para completar la licenciatura.</p>
+        </div>
+
+        <div class="servicios-card">
+            <h3>Centro de computo</h3>
+            <p>Asesoría personalizada durante toda la trayectoria académica.</p>
+        </div>
+
+        <div class="servicios-card">
+            <h3>Becas y Apoyos</h3>
+            <p>Intercambios en universidades nacionales e internacionales.</p>
+        </div>
+
+    </div>
+
+    <!-- CARDS INFERIORES -->
+    <div class="vida-extra">
+
+        <div class="extra-card">
+            <i  class="fas fa-book-open"></i>  
+            <h3>Programas Por Materia</h3>
+            <p>Conoce el contenido tematico de tus materias</p>
+            <a href="public/Recursos/ContenidoProgramasMateriasLCFM.pdf">
+                <button class="btn-outline">Ver más</button>
+            </a>
+        </div>
+
+        <div class="extra-card red">
+            <i class="fas fa-book"></i>  
+            <h3>Modelo Educativo</h3>
+            <p>Recomendaciones académicas</p>
+            <a href="public/Recursos/MODELO_EDUCATIVO_UMSNH_2022.pdf">
+                <button class="btn-outline red">Ver más</button>
+            </a>
+        </div>
+
+        <div class="extra-card blue">
+            <i  class="fas fa-download"></i>  
+            <h3> Manual Completo</h3>
+            <p>Descarga el manual en PDF</p>
+            <a href="public/Recursos/manual.pdf">
+                <button class="btn-main">Descargar</button>
+            </a>
+        </div>
+
+    </div>
+
+</section>
+</div>
+
+<!-- CONTENIDO 3--------------------->
+<div class="tab-content" id="development">
+    <section class="desarrollo">
+
+    <!-- HEADER -->
+    <div class="desarrollo-header">
+        <div class="icono">
+            <i class="fas fa-brain"></i>  
+        </div>
+        <h2>Servicios y Recursos</h2>
+    </div>
+
+    <!-- GRID INFO -->
+    <div class="desarrollo-grid">
+
+        <div class="desarrollo-card">
+            <h3>Servicio Social</h3>
+            <p>El Servicio Social en la Universidad Michoacana de San Nicolás de Hidalgo (UMSNH) es una actividad obligatoria y retributiva para la sociedad, indispensable para la titulación. Por lo general, se puede iniciar al cubrir entre el 70% y el 80% de los créditos, dependiendo de la facultad, con una duración reglamentaria de 480 horas.</p>
+        </div>
+
+        <div class="desarrollo-card">
+            <h3>Manual de Titulación</h3>
+            <p>Guía completa para el proceso de titulación.</p>
+            <a href="public/Recursos/MANUAL_TRAMITES_TITULACION.pdf">
+                <button class="btn-outline">Manual de Titulación</button>
+            </a>
+            <a href="public/Recursos/AcuerdosProcesoTitulacion.pdf">
+                <button class="btn-outline">Acuerdos del Proceso de Titulación</button>
+            </a>
+            
+
+        </div>
+
+        <div class="desarrollo-card">
+            <h3>Examen de Articulo 34</h3>
+            <p>El Artículo 34 del Reglamento General de Exámenes de la UMSNH establece la suspensión de derechos de alumno cuando se reprueba un examen extraordinario de regularización tras haber cursado nuevamente la materia. El alumno queda en "banca" o "baja temporal", pero mantiene el derecho a intentar aprobar la materia en periodos extraordinarios subsecuentes sin límite de oportunidades, cubriendo la cuota correspondiente hasta aprobar y poder regularizarse.</p>
+        </div>
+
+        <div class="desarrollo-card">
+            <h3>Programa de Orientación Profesional</h3>
+            <p>Para la Facultad de Físico-Matemáticas Mat. "Luis Manuel Rivera Gutierrez" la orientación profesional es una parte integral de la formación académica, proporcionando a los estudiantes herramientas y recursos para su desarrollo profesional.</p>
+            <a href="public/Recursos/Programa_Orientación_Profesional_(POP).pdf">
+                <button class="btn-outline">Programa de Orientación Profesional</button>
+            </a>
+        </div>
+
+    </div>
+
+    <!-- CARDS INFERIORES -->
+    <div class="vida-extra">
+
+        <div class="extra-card">
+            <i  class="fas fa-book-open"></i>  
+            <h3>Programas Por Materia</h3>
+            <p>Conoce el contenido tematico de tus materias</p>
+            <a href="public/Recursos/ContenidoProgramasMateriasLCFM.pdf">
+                <button class="btn-outline">Ver más</button>
+            </a>
+        </div>
+
+        <div class="extra-card red">
+            <i class="fas fa-book"></i>  
+            <h3>Modelo Educativo</h3>
+            <p>Recomendaciones académicas</p>
+            <a href="public/Recursos/MODELO_EDUCATIVO_UMSNH_2022.pdf">
+                <button class="btn-outline red">Ver más</button>
+            </a>
+        </div>
+
+        <div class="extra-card blue">
+            <i  class="fas fa-download"></i>  
+            <h3> Manual Completo</h3>
+            <p>Descarga el manual en PDF</p>
+            <a href="public/Recursos/manual.pdf">
+                <button class="btn-main">Descargar</button>
+            </a>
+        </div>
+
+    </div>
+
+</section>
+</div>
+<!-- CONTENIDO 4--------------------->
+<div class="tab-content" id="wellness">
+    <section class="bienestar">
+
+    <!-- HEADER -->
+    <div class="bienestar-header">
+        <div class="icono">
+            <i class="fas fa-heartbeat"></i>
+        </div>
+        <h2>Bienestar Estudiantil</h2>
+    </div>
+
+    <!-- GRID INFO -->
+    <div class="bienestar-grid">
+
+        <div class="bienestar-card">
+            <h3>Actividades culturales</h3>
+            <p>Eventos y actividades que fomentan el desarrollo cultural y artístico de los estudiantes llevadas a cabo por la Sociedad de alumnos de la FCFM</p>
+        </div>
+
+        <div class="bienestar-card">
+            <h3>Actividades deportivas</h3>
+            <p>Eventos y competencias que promueven la salud y el bienestar físico de los estudiantes.</p>
+        </div>
+
+        <div class="bienestar-card">
+            <h3>Tutorías Académicas</h3>
+            <p>Asesoría personalizada durante toda la trayectoria académica.</p>
+        </div>
+
+        <div class="bienestar-card">
+            <h3>Movilidad Estudiantil</h3>
+            <p>Intercambios en universidades nacionales e internacionales.</p>
+        </div>
+
+    </div>
+
+    <!-- CARDS INFERIORES -->
+    <div class="vida-extra">
+
+        <div class="extra-card">
+            <i  class="fas fa-book-open"></i>  
+            <h3>Programas Por Materia</h3>
+            <p>Conoce el contenido tematico de tus materias</p>
+            <a href="public/Recursos/ContenidoProgramasMateriasLCFM.pdf">
+                <button class="btn-outline">Ver más</button>
+            </a>
+        </div>
+
+        <div class="extra-card red">
+            <i class="fas fa-book"></i>  
+            <h3>Modelo Educativo</h3>
+            <p>Recomendaciones académicas</p>
+            <a href="public/Recursos/MODELO_EDUCATIVO_UMSNH_2022.pdf">
+                <button class="btn-outline red">Ver más</button>
+            </a>
+        </div>
+
+        <div class="extra-card blue">
+            <i  class="fas fa-download"></i>  
+            <h3> Manual Completo</h3>
+            <p>Descarga el manual en PDF</p>
+            <a href="public/Recursos/manual.pdf">
+                <button class="btn-main">Descargar</button>
+            </a>
+        </div>
+
+    </div>
+
+</section>
+</div>
+
+
+    <script src="/public/js/manualdelestudiante.js" defer></script>
+</Layout>

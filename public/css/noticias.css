@@ -1,0 +1,199 @@
+
+/* HERO */
+.instalaciones-hero {
+    background:  #002147;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    padding-top: 100px;
+}
+
+.instalaciones-hero h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.instalaciones-hero p {
+    color: #cbd5f5;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* BADGE */
+.badge {
+    background: rgba(255,255,255,0.2);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* TAGS */
+.tags {
+    margin-top: 20px;
+}
+
+.tags span {
+    border: 1px solid white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 5px;
+    display: inline-block;
+}
+/*-----------------------------------termina formato principal y navbar----------------------------------------------------*/
+
+
+
+
+.noticias {
+    padding: 60px 40px;
+    background: #f8fafc;
+    color: #0f172a;
+}
+
+/* GRID */
+.noticias-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+/* NOTICIAS */
+.noticia-card {
+    display: flex;
+    background: white;
+    border-radius: 12px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    border: 1px solid #e2e8f0;
+}
+.noticia-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.noticia-card.small img {
+    width: 120px;
+}
+
+.noticia-card img {
+    width: 200px;
+    object-fit: cover;
+}
+
+.noticia-info {
+    padding: 15px;
+}
+
+.noticia-info h3 {
+    margin: 5px 0;
+}
+.btn-LM {
+     display: inline-block;
+ border-radius: 8px;
+ background-color: #002147;
+ border: none;
+ color: #FFFFFF;
+ text-align: center;
+ font-size: 8px;
+ padding: 8px;
+ width: 110px;
+ transition: all 0.5s;
+ cursor: pointer;
+ margin: 5px;
+}
+.btn-LM span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+    
+}
+.btn-LM span:after {
+ content: '»';
+ position: absolute;
+ opacity: 0;
+ top: 0;
+ right: -15px;
+ transition: 0.5s;
+}
+
+.btn-LM:hover span {
+ padding-right: 15px;
+}
+
+.btn-LM:hover span:after {
+ opacity: 1;
+ right: 0;
+}
+
+.fecha {
+    font-size: 12px;
+    color: #64748b;
+}
+
+/* TAG */
+.tag {
+    background: #991b1b;
+    color: white;
+    padding: 3px 8px;
+    border-radius: 6px;
+    font-size: 12px;
+}
+
+.tag.blue {
+    background: #3b82f6;
+}
+
+/* EVENTOS */
+.eventos h2 {
+    margin-bottom: 10px;
+}
+
+.evento-card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    margin-bottom: 15px;
+    border-left: 4px solid;
+}
+
+.evento-card:hover{
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.evento-card.red { border-color: #991b1b; }
+.evento-card.blue { border-color: #1e3a8a; }
+
+/* BOTONES */
+.evento-card button {
+    margin-top: 10px;
+    padding: 6px 10px;
+    border-radius: 8px;
+    border: 1px solid #a22035;
+    background: transparent;
+    cursor: pointer;
+}
+.evento-card button:hover {
+    background: #a22035;
+    color: white;
+}
+
+.btn-main {
+    width: 100%;
+    margin-top: 10px;
+    padding: 10px;
+    background: #a22035;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 17px;
+    cursor: pointer;
+}
+.btn-main:hover {
+    background: #e2e8f0;
+    color : #991b1b;
+}
+
+
+

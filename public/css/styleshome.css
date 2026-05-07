@@ -1,0 +1,478 @@
+
+/*--------navbar para movil-------------*/
+/* 🔥 MOBILE */
+@media (max-width: 768px) {
+
+    /* mostrar botón */
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+    /* ocultar menú */
+    .menu {
+        display: none;
+        flex-direction: column;
+        background: #1e3a8a;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    /* cuando está activo */
+    .menu.active {
+        display: flex;
+    }
+
+    /* submenu en móvil */
+    .submenu {
+        position: relative;
+        background: #334155;
+        color: white;
+    }
+
+    .submenu a {
+        color: white;
+    }
+
+    .dropdown:hover .submenu {
+        display: none;
+    }
+}
+
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    padding: 0 10%;
+    background: url('public/imagenes/Fismat_fondo_home.jpg') no-repeat center center/cover;
+}
+
+.hero-overlay {
+    position: absolute;
+    top: 0; left: 0; width: 100%; height: 100%;
+    background: linear-gradient(90deg, rgba(17, 17, 17, 0.9) 30%, rgba(255, 252, 252, 0.4) 100%);
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+    max-width: 700px;
+}
+
+.badge {
+    background: #002147;
+    padding: 5px 15px;
+    border-radius: 20px;
+    font-size: 0.75rem;
+    text-transform: uppercase;
+}
+
+h1 {
+    font-size: 3.5rem;
+    margin: 20px 0;
+    line-height: 1.1;
+}
+
+.highlight {
+    color: #4cc9f0;
+}
+
+p {
+    font-size: 1.1rem;
+    color: #ccc;
+    margin-bottom: 30px;
+    line-height: 1.6;
+}
+
+.somos {
+    padding: 80px 40px;
+    text-align: center;
+}
+.somos h2 {
+    font-size: 32px;
+    margin-top: 20px;
+    color: #222;
+}
+
+/* HEADER */
+.somos.header h2 {
+    font-size: 32px;
+    margin-top: 10px;
+    color: black;
+}
+
+.badge {
+    background: #002147;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* GRID */
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    margin-top: 40px;
+}
+
+/* TARJETAS */
+.card {
+    background: #ffffff;
+    border-radius: 16px;
+    padding: 25px;
+    text-align: left;
+    border: 1px solid #333;
+    color: black;
+}
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+}
+
+/* HEADER CARD */
+.card-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+.card-header h3 {
+    font-size: 20px;
+}
+
+/* ICONOS */
+.icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.blue {
+    background: rgba(59,130,246,0.2);
+    color: #1f21a5;
+}
+
+.red {
+    background: rgba(220,38,38,0.2);
+    color: #a22035;
+}
+
+.light {
+    background: rgba(255,255,255,0.1);
+}
+
+/* COLORES BORDE SUPERIOR */
+.mision {
+    border-top: 3px solid #3b82f6;
+}
+
+.vision {
+    border-top: 3px solid #a22035;
+}
+
+/* TEXTO */
+.card p {
+    font-size: 14px;
+    color: #000000;
+    line-height: 1.6;
+}
+
+
+
+
+
+
+
+
+/* Botones */
+.cta-buttons button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.btn-primary { 
+    background: #a22035; color: white; 
+}
+.btn-primary:hover { 
+    background: #e2e8f0; color: #a22035; 
+    transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+.btn-secondary { 
+    background: #1b3a61; color: white; 
+}
+.btn-secondary:hover { 
+    background: #e2e8f0; color: #1b3a61;
+    transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05); 
+}
+
+/* Stats */
+.stats {
+    display: flex;
+    
+    margin-top: 50px;
+    gap: 40px;
+}
+
+.stat-item { display: flex; flex-direction: column; }
+.number { font-size: 1.8rem; font-weight: bold; }
+.label { font-size: 0.8rem; color: #aaa; }
+
+.titulo-cards {
+    text-align: center;
+    color: #222;
+    margin: 60px 0 40px 0;
+}
+
+/* Sello de Acreditación */
+.accreditation {
+    position: absolute;
+    right: 5%;
+    top: 20%;
+}
+
+.circle {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #c1121f;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background: white;
+    color: #a22035;
+    padding: 10px;
+}
+
+.circle small { font-size: 0.5rem; }
+.circle strong { font-size: 0.7rem; }
+/*-----------------------------------termina home----------------------------------------------------*/
+/*-----------------------------------comienza calendario----------------------------------------------------*/
+/* CONTENEDOR PRINCIPAL */
+.containercalendar {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    padding: 80px 80px;
+    
+    
+}
+.aviso {
+    color: #000000;
+}
+
+
+
+/* AVISOS */
+.notice {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #fefcfc;
+    border-radius: 12px;
+    padding: 15px;
+    margin-bottom: 15px;
+    border: 2px solid #72727252;
+    transition: 0.2s;
+    color: #000000;
+}
+
+.notice:hover {
+    transform: translateY(-5px); box-shadow: 0 10px 20px rgba(0,0,0,0.05);
+}
+
+.notice h3 {
+    font-size: 16px;
+}
+
+.notice p {
+    font-size: 13px;
+    color: #000000;
+}
+
+.date {
+    font-size: 12px;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: #000000;
+}
+
+/* COLORES */
+
+
+.info {
+    border-left: 4px solid #002147;
+}
+
+
+
+/* BOTÓN */
+.btn-outline {
+    margin-top: 10px;
+    border: 1px solid #3b82f6;
+    background: transparent;
+    color: #0075fa;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.btn-outline:hover {
+    background: #3b82f6;
+    color: rgb(255, 255, 255);
+}
+
+
+
+/* TARJETAS */
+.card {
+    background: #fcfbfb;
+    border: 1px solid #333;
+    border-radius: 12px;
+    padding: 20px;
+    color: #000000;
+}
+
+
+
+.calendar-header button {
+    background: transparent;
+    border: none;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+}
+
+.days {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+    gap: 5px;
+}
+
+.day {
+    padding: 10px;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.day:hover {
+    background: #222;
+}
+
+.today {
+    background: #3b82f6;
+    color: rgb(0, 0, 0);
+}
+
+/* EVENTOS */
+.event {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 15px;
+}
+
+.date-box {
+    text-align: center;
+    min-width: 50px;
+}
+
+.date-box strong {
+    font-size: 18px;
+    color: #000000;
+}
+
+.date-box span {
+    font-size: 12px;
+    color: #000000;
+}
+
+.event p {
+    font-size: 14px;
+}
+
+.event small {
+    font-size: 12px;
+    color: #000000;
+}
+
+
+
+
+/*-----------------------------------termina calendario----------------------------------------------------*/
+
+
+/*-----------------------------------formato de cartas----------------------------------------------------*/
+/* GRID */
+
+.org-grid {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+}
+
+/* CARDS */
+.org-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    border: 1px solid #e2e8f0;
+    border-top: 4px solid;
+    transition: 0.2s;
+}
+.org-card .icon {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.org-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.org-card h3 {
+    margin-bottom: 10px;
+    color: #0f172a;
+}
+
+.org-card p {
+    font-size: 13px;
+    color: #475569;
+    margin-bottom: 5px;
+}
+
+/* COLORES */
+.org-card.blue { border-top-color: #1e3a8a; }
+.org-card.red { border-top-color:#a22035 ; }
+.org-card.lightblue { border-top-color: #3b82f6; }
+.org-card.dark { border-top-color: #334155; }
+

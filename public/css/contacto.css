@@ -1,0 +1,485 @@
+
+/* HERO */
+.instalaciones-hero {
+    background:  #002147;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.instalaciones-hero h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.instalaciones-hero p {
+    color: #cbd5f5;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* BADGE */
+.badge {
+    background: rgba(255,255,255,0.2);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* TAGS */
+.tags {
+    margin-top: 20px;
+}
+
+.tags span {
+    border: 1px solid white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 5px;
+    display: inline-block;
+}
+
+/*-----------------------------------termina formato principal y navbar----------------------------------------------------*/
+
+
+/*-----------------------------------seccion mini header----------------------------------------------------*/
+.mini-header-section {
+    padding: 20px 40px;
+    text-align: center;
+}
+
+/* CONTENEDOR */
+.mini-header {
+    margin-top: 50px;
+    display: flex;
+    gap: 20px;
+    border-bottom: 1px solid #e2e8f0;
+    margin-bottom: 20px;
+}
+
+/* BOTONES */
+.tab {
+    background: transparent;
+    border: none;
+    padding: 10px 5px;
+    cursor: pointer;
+    font-size: 14px;
+    color: #64748b;
+    position: relative;
+}
+
+/* ACTIVO */
+.tab.active {
+    color: #a22035;
+}
+
+/* LINEA INFERIOR */
+.tab.active::after {
+    content: "";
+    position: absolute;
+    bottom: -1px;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background: #a22035;
+}
+
+
+/* CONTENIDO */
+.tab-content {
+    display: none;
+    opacity: 0;
+    transition: 0.3s;
+}
+
+.tab-content.active {
+    display: block;
+    opacity: 1;
+}
+/*-----------------------------------primera seccion----------------------------------------------------*/
+.contacto {
+    padding: 60px 40px;
+    background: #f8fafc;
+}
+
+/* GRID */
+.contacto-grid {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    gap: 20px;
+}
+
+/* FORMULARIO */
+.form-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+}
+
+.form-card h3 {
+    color: #0f172a;
+}
+
+.form-card p {
+    color: #64748b;
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+/* INPUTS */
+form input,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+/* BOTÓN */
+
+
+/* From Uiverse.io by adamgiebl */ 
+.btn-submit{
+
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: white;
+  background: transparent;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+  
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0  #002147;
+}
+
+.btn-submit:hover {
+    
+  color: white;
+  box-shadow: inset 0 -100px 0 0  #002147;
+}
+
+.btn-submit:active {
+  transform: scale(0.9);
+}
+
+/* DERECHA */
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+/* CARDS */
+.info-card {
+    background: white;
+    padding: 15px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+}
+
+.info-card.red {
+    border-top: 3px solid #a22035;
+}
+
+.info-card h4 {
+    margin-bottom: 10px;
+    color: #0f172a;
+}
+
+.info-card p {
+    font-size: 13px;
+    color: #64748b;
+    margin-bottom: 5px;
+}
+
+/* CTA */
+.cta-card {
+    background: #a22035;
+    color: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+}
+
+.btn-primary {
+    margin-top: 10px;
+    background: #002147;
+    color: white;
+    border: none;
+    padding: 10px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn-primary{
+
+  display: inline-block;
+  margin: 15px;
+  padding: 15px 30px;
+  text-align: center;
+  font-size: 18px;
+  letter-spacing: 1px;
+  text-decoration: none;
+  color: white;
+  background: #002147;
+  cursor: pointer;
+  transition: ease-out 0.5s;
+
+  border-radius: 10px;
+  box-shadow: inset 0 0 0 0  white;
+}
+
+.btn-primary:hover {
+    
+  color: #002147;
+  box-shadow: inset 0 -100px 0 0  white;
+}
+
+.btn-primary:active {
+  transform: scale(0.9);
+}
+
+
+/* MAPA */
+.map {
+    margin-top: 20px;
+    height: 200px;
+    background: #e2e8f0;
+    border-radius: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #475569;
+}
+/*-----------------------------------seccion 2----------------------------------------------------*/
+.buzon {
+    padding: 60px 40px;
+    background: #f8fafc;
+    text-align: center;
+}
+
+/* HEADER */
+.buzon-header h2 {
+    color: #0f172a;
+    margin: 10px 0;
+}
+
+.buzon-header p {
+    color: #64748b;
+}
+
+/* BADGE */
+.badge.red {
+    background: #a22035;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* CARD */
+.buzon-card {
+    background: white;
+    margin: 30px auto;
+    padding: 25px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    max-width: 600px;
+    text-align: left;
+}
+
+/* FORM */
+form label {
+    font-size: 13px;
+    color: #0f172a;
+    margin-top: 10px;
+    display: block;
+}
+
+form input,
+form select,
+form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    border: 1px solid #e2e8f0;
+}
+
+/* TEXTAREA */
+textarea {
+    min-height: 80px;
+}
+
+/* ROW */
+.row {
+    display: flex;
+    gap: 10px;
+}
+
+/* BOTÓN */
+.btn-submit {
+    width: 100%;
+    background: #a22035;
+    color: white;
+    padding: 12px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
+/* INFO */
+.info-box {
+    background: #e0f2fe;
+    border: 1px solid #93c5fd;
+    padding: 20px;
+    border-radius: 12px;
+    max-width: 600px;
+    margin: auto;
+    text-align: left;
+}
+
+.info-box h4 {
+    color: #1e3a8a;
+}
+
+.info-box li {
+    font-size: 13px;
+    color: #1e3a8a;
+}
+/*-----------------------------------seccion 3----------------------------------------------------*/
+.badge.blue{
+    background: #002147;
+    color: white;
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+.organizacion {
+    padding: 60px 40px;
+    background: #f8fafc;
+    text-align: center;
+}
+
+/* HEADER */
+.org-header h2 {
+    color: #0f172a;
+    margin: 10px 0;
+}
+
+.org-header p {
+    color: #64748b;
+}
+
+/* GRID */
+.org-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* CARDS */
+.org-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    text-align: left;
+    border: 1px solid #e2e8f0;
+    border-top: 4px solid;
+    transition: 0.2s;
+}
+
+.org-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.org-card h3 {
+    margin-bottom: 10px;
+    color: #0f172a;
+}
+
+.org-card p {
+    font-size: 13px;
+    color: #475569;
+    margin-bottom: 5px;
+}
+
+/* COLORES */
+.org-card.blue { border-top-color: #002147; }
+.org-card.red { border-top-color: #a22035; }
+
+
+/* DOCUMENTOS */
+.org-docs {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.doc-card {
+    background: white;
+    padding: 20px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    text-align: left;
+}
+.doc-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.08);
+}
+
+.doc-card.red {
+    border-top: 3px solid #a22035;
+}
+.doc-card.blue {
+    border-top: 3px solid #002147;
+}
+
+.doc-card h4 {
+    color: #0f172a;
+}
+
+.doc-card p {
+    font-size: 13px;
+    color: #64748b;
+}
+
+/* BOTONES */
+.btn-outline {
+    margin-top: 10px;
+    border: 1px solid  #002147;
+    color:  #002147;
+    padding: 8px 12px;
+    border-radius: 8px;
+    background: transparent;
+    cursor: pointer;
+}
+.btn-outline:hover {
+    background:  #002147;
+    color: white;
+}
+
+.btn-outline.red {
+    border-color: #a22035;
+    color: #a22035;
+}
+.btn-outline.red:hover {
+    background: #a22035;
+    color: white;
+}
+

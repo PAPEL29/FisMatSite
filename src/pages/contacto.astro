@@ -1,0 +1,314 @@
+---
+import Layout from '../layouts/MainLayout.astro';
+import '/public/css/contacto.css';
+---
+
+<Layout title="contacto">
+        <!-- HERO -->
+    <div class="instalaciones-hero">
+        
+        <h1>Contáctanos</h1>
+        <p>
+            Estamos aquí para responder tus preguntas y ayudarte en tu camino académico. No dudes en ponerte en contacto con nosotros.
+        </p>
+
+    
+    </div>
+
+
+
+
+<section class="mini-header-section">
+
+    <!-- MINI HEADER -->
+    <div class="mini-header">
+        <button class="tab active" data-tab="contacto">Contacto General</button>
+        <button class="tab" data-tab="buzon">Buzón de Quejas</button>
+        <button class="tab" data-tab="servicio">Organización y Servicio</button>
+    </div>
+
+    <!-- seccion 1 ------------------------------------------------------->
+     <div class="tab-content active" id="contacto">
+     
+
+    <div class="contacto-grid">
+
+        <!-- FORMULARIO -->
+        <div class="form-card">
+            <h3>Envíanos un mensaje</h3>
+            <p>Completa el formulario y nos pondremos en contacto contigo</p>
+
+            <form id="formulario">
+
+                <div class="row">
+                    <input type="text" placeholder="Nombre completo">
+                    <input type="email" placeholder="Correo electrónico">
+                </div>
+
+                <input type="text" placeholder="Teléfono">
+                <input type="text" placeholder="Asunto">
+                <textarea placeholder="Escribe tu mensaje aquí..."></textarea>
+
+                <a href="">
+                    <button type="submit" class="btn-submit">Enviar mensaje</button>
+                </a>
+
+            </form>
+        </div>
+
+        <!-- DERECHA -->
+        <div class="contact-info">
+
+            <!-- INFO -->
+            <div class="info-card red">
+                <h4>Información de Contacto</h4>
+                <p>
+                    <i class="fa-solid fa-map-pin"></i>
+                    Edificio Alfa, Avenida Francisco J. Múgica S/N Ciudad Universitaria C.P. 58030, Morelia, Michoacán
+                    </p>
+                <p>
+                    <i class="fa-solid fa-phone"></i>
+                    +52 (443) 322 3500
+                </p>
+                <p>
+                    <i class="fa-solid fa-envelope"></i>
+                    contacto@umich.mx
+                </p>
+                <p>
+                    <i class="fa-solid fa-clock"></i>
+                    Lunes - Viernes: 8:00 - 14:00
+                </p>
+            </div>
+
+            <!-- DEPARTAMENTOS -->
+            <div class="info-card">
+                <h4>Departamentos</h4>
+                <p>Servicios Escolares</p>
+                <p>Admisiones</p>
+                <p>Posgrado</p>
+                <p>Biblioteca</p>
+            </div>
+
+            <!-- CTA -->
+            <div class="cta-card">
+                <h4>¿Necesitas ayuda inmediata?</h4>
+                <a href="">
+                    <button class="btn-primary">Agendar Cita</button>
+                </a>
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- MAPA -->
+    <div class="map">
+        <iframe class="map"
+  src="https://maps.app.goo.gl/atKUfNRjpxKLGNkX9" 
+  style="border:0;" 
+  allowfullscreen="" 
+  loading="lazy">
+</iframe>
+
+    </div>
+
+</section>
+
+
+    <!-- seccion 2 ----------------------------------------------------------- -->
+    <div class="tab-content" id="buzon">
+        
+    
+
+    <section class="buzon">
+
+    <!-- HEADER -->
+    <div class="buzon-header">
+        <span class="badge red">Atención Ciudadana</span>
+        <h2>Buzón de Quejas y Sugerencias</h2>
+        <p>
+            Tu opinión es importante. Este espacio es para reportar irregularidades o sugerencias.
+        </p>
+    </div>
+
+    <!-- FORMULARIO -->
+    <div class="buzon-card">
+
+        <h3>Enviar Queja o Sugerencia</h3>
+        <p>Completa el formulario. Puedes hacerlo de forma anónima.</p>
+
+        <form id="buzonForm">
+
+            <label>Tipo de reporte</label>
+            <select>
+                <option>Selecciona una opción</option>
+                <option>Queja</option>
+                <option>Sugerencia</option>
+            </select>
+
+            <label>Área relacionada</label>
+            <select>
+                <option>Selecciona un área</option>
+                <option>Administración</option>
+                <option>Académica</option>
+            </select>
+
+            <label>Describe tu queja o sugerencia</label>
+            <textarea placeholder="Describe lo sucedido..."></textarea>
+
+            <h4>Datos de contacto (opcional)</h4>
+
+            <div class="row">
+                <input type="text" placeholder="Tu nombre">
+                <input type="email" placeholder="tu@email.com">
+            </div>
+
+            <a href="">
+                <button type="submit" class="btn-submit">Enviar reporte</button>
+            </a>
+
+        </form>
+
+    </div>
+
+    <!-- INFO -->
+    <div class="info-box">
+        <h4>Información importante</h4>
+        <ul>
+            <li>Los reportes son revisados por el Comité de Ética</li>
+            <li>Tiempo de respuesta: 5-10 días hábiles</li>
+            <li>Confidencialidad garantizada</li>
+            <li>Reportes falsos pueden ser sancionados</li>
+        </ul>
+    </div>
+
+</section>
+</div>
+    <!-- seccion  3----------------------------------------------------------------------------------------->
+    
+<div class="tab-content" id="servicio">
+    <section class="organizacion">
+
+    <!-- HEADER -->
+    <div class="org-header">
+        <span class="badge blue">Estructura Organizacional</span>
+        <h2>Organización y Servicio</h2>
+        <p>Directorio completo de departamentos y áreas de servicio</p>
+    </div>
+
+    <!-- GRID -->
+    <div class="org-grid">
+
+        <!-- CARD -->
+        <div class="org-card blue">
+            <h3>Dirección de la Facultad</h3>
+            <p>
+                <i class="fa-solid fa-user"></i>
+                Dr. Miguel González
+            </p>
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                direccion@fcfm.edu.mx
+            </p>
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                +52 123 456 789
+            </p>
+            <p>
+                <i class="fa-solid fa-clock"></i> 
+                Lun-Vie 9:00 - 14:00
+            </p>
+        </div>
+
+        <div class="org-card red">
+            <h3>Secretaría Académica</h3>
+            <p>
+                <i class="fa-solid fa-user"></i>
+                Dra. Patricia Hernández
+            </p>
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                academica@fcfm.edu.mx
+            </p>
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                 +
+                52 123 456 780
+            </p>
+            <p>
+                <i class="fa-solid fa-clock"></i> 
+                Lun-Vie 9:00 - 18:00
+            </p>
+        </div>
+
+        <div class="org-card blue">
+            <h3>Secretaría Administrativa</h3>
+            <p>
+                <i class="fa-solid fa-user"></i>
+                Lic. Roberto Sánchez
+            </p>
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                admin@fcfm.edu.mx
+            </p>
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                +52 123 456 781
+            </p>
+            <p>
+                <i class="fa-solid fa-clock"></i> 
+                Lun-Vie 9:00 - 18:00
+            </p>
+        </div>
+
+        <div class="org-card red">
+            <h3>Servicios Escolares</h3>
+            <p>
+                <i class="fa-solid fa-user"></i>
+                Lic. Laura Ruiz
+            </p>
+            <p>
+                <i class="fa-solid fa-envelope"></i>
+                escolares@fcfm.edu.mx
+            </p>
+            <p>
+                <i class="fa-solid fa-phone"></i>
+                +52 123 456 782
+            </p>
+            <p>
+                <i class="fa-solid fa-clock"></i> 
+                Lun-Vie 9:00 - 16:00
+            </p>
+        </div>
+
+        
+
+    </div>
+
+    <!-- DOCUMENTOS -->
+    <div class="org-docs">
+
+        <div class="doc-card blue">
+            <h4>Organigrama</h4>
+            <p>Consulta la estructura jerárquica</p>
+            <a href="">
+                <button class="btn-outline">Descargar PDF</button>
+            </a>
+        </div>
+
+        <div class="doc-card red">
+            <h4>Directorio Completo</h4>
+            <p>Información completa del personal</p>
+            <a href="">
+                <button class="btn-outline red">Descargar PDF</button>
+            </a>
+        </div>
+
+    </div>
+
+</section>
+</div>
+
+</section>
+<script src="/public/js/contacto.js" defer></script>
+</Layout>

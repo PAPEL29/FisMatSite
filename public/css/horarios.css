@@ -1,0 +1,156 @@
+/* HERO */
+.instalaciones-hero {
+    background:   #002147;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    padding-top: 100px;
+}
+
+.instalaciones-hero h1 {
+    font-size: 36px;
+    margin: 10px 0;
+}
+
+.instalaciones-hero p {
+    color: #cbd5f5;
+    max-width: 600px;
+    margin: auto;
+}
+
+/* BADGE */
+.badge {
+    background: rgba(255,255,255,0.2);
+    padding: 6px 14px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* TAGS */
+.tags {
+    margin-top: 20px;
+}
+
+.tags span {
+    border: 1px solid white;
+    padding: 6px 10px;
+    border-radius: 6px;
+    margin: 5px;
+    display: inline-block;
+}
+/* CTA */
+.horarios-cta {
+    margin-top: 40px;
+    background: #002147;
+    color: white;
+    padding: 30px;
+    border-radius: 14px;
+    text-align: center;
+    margin:20px;
+    margin-top: 60px;
+    margin-left: 10%;
+    margin-right: 10%;    
+}
+
+.btn-main {
+    margin-top: 15px;
+    background: white;
+    color: #1e3a8a;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.btn-main:hover {
+    background: #e2e8f0;
+    color: #1e3a8a;
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+
+/* RESPONSIVE */
+@media (max-width: 900px) {
+
+    .horarios-grid {
+        grid-template-columns: 1fr;
+    }
+
+}
+/* GRID */
+.horarios-grid {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+/* CARD */
+.horario-card {
+    color:black;
+    background: white;
+    border-radius: 12px;
+    padding: 20px;
+    border-top: 4px solid;
+    transition: 0.3s;
+}
+
+.horario-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.08);
+}
+
+/* COLORES */
+.horario-card.blue {
+    border-color: #002147;
+}
+
+.horario-card.red {
+    border-color: #991b1b;
+}
+
+.horario-card.lightblue {
+    border-color: #002147;
+}
+
+/* TOP */
+.horario-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.grupo {
+    background: #e2e8f0;
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 12px;
+}
+
+/* INFO */
+.horario-info {
+    margin-top: 15px;
+}
+
+.horario-info p {
+    margin-bottom: 8px;
+    color: #475569;
+    font-size: 14px;
+}
+.btn-horarios {
+  background-color: #f3f7fe;
+  color: #3b82f6;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  width: 100px;
+  height: 45px;
+  transition: 0.3s;
+}
+
+.btn-horarios:hover {
+  background-color: #002147;
+  box-shadow: 0 0 0 5px #3b83f65f;
+  color: #fff;
+}
+

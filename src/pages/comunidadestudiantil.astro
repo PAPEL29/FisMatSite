@@ -1,0 +1,329 @@
+---
+import Layout from '../layouts/MainLayout.astro';
+import '/public/css/comunidadestudiantil.css';
+---
+
+<Layout title="comunidadestudiantil">
+        <!-- HERO -->
+    <div class="instalaciones-hero">
+        <span class="badge">Vida estudiantil</span>
+        <h1>Comunidad Estudiantil</h1>
+        <p>
+            Más que una facultad, somos una comunidad vibrante donde la excelencia académica se complementa con deportes, cultura y actividades que enriquecen tu experiencia universitaria
+        </p>
+
+        
+    </div>
+    <!-- SECCIÓN DEPORTES ------------------------------>
+     <section class="equipos">
+
+    <!-- HEADER -->
+    <div class="equipos-header">
+        <span class="badge">Deportes Representativos</span>
+        <h2 class="espaciado">
+            .
+        </h2>
+        <h2>Nuestros Equipos y sus Resultados</h2>
+        <p>Apoya a nuestros equipos en competencias universitarias</p>
+    </div>
+
+    <!-- GRID -->
+    <div class="equipos-grid">
+
+        <!-- CARD -->
+        <div class="equipo-card">
+            <div class="equipo-img">
+                <img src="/public/imagenes/futbol_fismat.jpeg" alt="Fútbol">
+                <span class="score blue">8-2-1</span>
+            </div>
+
+            <div class="equipo-info">
+                <i data-lucide="sport-shoe"></i>  
+                <h3> Fútbol</h3>
+                <p>FCFyM Águilas</p>
+
+                <div class="detalle">
+                    <p>
+                        <i class="fa-solid fa-calendar"></i>
+                        15 Marzo 2026
+                    </p>
+                    
+                    <p>
+                        <i class="fa-solid fa-map-pin"></i> 
+                        Cancha Principal
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD -->
+        <div class="equipo-card">
+            <div class="equipo-img">
+                <img src="/public/imagenes/basquet1fismat.jpeg" alt="Basketbol">
+                <span class="score red">10-3-0</span>
+            </div>
+
+            <div class="equipo-info">
+                <i data-lucide="shopping-basket"></i>  
+                <h3> Basketbol</h3>
+                <p>FCFyM Cometas</p>
+
+                <div class="detalle">
+                    <p>
+                        <i class="fa-solid fa-calendar"></i> 
+                        18 Marzo 2026
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-map-pin"></i>
+                        Gimnasio Universitario
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD -->
+        <div class="equipo-card">
+            <div class="equipo-img">
+                <img src="img/voley.jpg" alt="Voleibol">
+                <span class="score lightblue">7-4-0</span>
+            </div>
+
+            <div class="equipo-info">
+                <i data-lucide="volleyball"></i>  
+                <h3> Voleibol</h3>
+                <p>FCFyM Quarks</p>
+
+                <div class="detalle">
+                    <p>
+                        <i class="fa-solid fa-calendar"></i>
+                        22 Marzo 2026
+                    </p>
+                    <p>
+                        <i class="fa-solid fa-map-pin"></i>
+                        Cancha de Voleibol
+                    </p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- CTA -->
+    <div class="equipos-cta">
+        <h3>¿Quieres ser parte del equipo?</h3>
+        <p>Las inscripciones están abiertas</p>
+        <a href="https://chat.whatsapp.com/EsPIgv2Lps3D1z6bB9BJFd?mode=gi_t">
+            <button class="btn-main">Únete al Club Deportivo</button>
+        </a>
+    </div>
+
+</section>
+<!-----seccion de areas -->
+<section class="areas">
+
+    <!-- HEADER -->
+    <div class="areas-header">
+        <span class="badge blue">Espacios de Convivencia</span>
+        <h2 class="espaciado">
+            .
+        </h2>
+        <h2>Áreas Comunes</h2>
+        <p>Espacios diseñados para tu comodidad, estudio y convivencia</p>
+    </div>
+
+    <!-- GRID -->
+    <div class="areas-grid">
+
+        <!-- CARD -->
+        <div class="area-card">
+            <img src="/public/imagenes/Biblioteca_fismat.jpg" alt="Biblioteca">
+
+            <div class="area-info">
+                <h3> <i data-lucide="library-big"></i>   Biblioteca Fismat</h3>
+                <p>Espacio moderno para estudio individual y grupal.</p>
+                <span class="horario blue">
+                    <i class="fa-solid fa-clock"></i>
+                    Lun-Vie 7:30-20:00
+                    </span>
+            </div>
+        </div>
+
+        <!-- CARD -->
+        <div class="area-card">
+            <img src="img/sala.jpg" alt="Sala">
+
+            <div class="area-info">
+                <h3> <i data-lucide="house"></i>   Sala de Estudiantes </h3>
+                <p>Zona de descanso y trabajo colaborativo.</p>
+                <span class="horario blue">
+                    <i class="fa-solid fa-clock"></i>
+                    Lun-Vie 7:00-21:00
+                </span>
+            </div>
+        </div>
+
+        <!-- CARD -->
+        <div class="area-card">
+            <img src="img/cafeteria.jpg" alt="Banquitas">
+
+            <div class="area-info">
+                <h3> <i data-lucide="trees"></i> Zona de Bancas y Hamacas</h3>
+                <p>Espacio para socializar y un exelente area para comer.</p>
+                <span class="horario blue">
+                    <i class="fa-solid fa-clock"></i>
+                    Abierto 24/7
+                </span>
+            </div>
+        </div>
+
+        <!-- CARD -->
+        <div class="area-card">
+            <img src="img/plaza.jpg" alt="Plaza">
+
+            <div class="area-info">
+                <h3> <i data-lucide="land-plot"></i>   Plaza Central</h3>
+                <p>Área verde para descanso y convivencia.</p>
+                <span class="horario blue">
+                    <i class="fa-solid fa-clock"></i>
+                    Abierto 24/7
+                    </span>
+            </div>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- SECCIÓN clubes estudiantiles ------------------------------>
+     <section class="equipos">
+
+    <!-- HEADER -->
+    <div class="equipos-header">
+        <span class="badge">Clubes Estudiantiles y actividades</span>
+        <h2 class="espaciado">
+            .
+        </h2>
+        <h2>Nuestros Clubes</h2>
+        <p>Encuentra tu pasión y conecta con estudiantes que comparten tus intereses</p>
+    </div>
+
+    <!-- GRID -->
+    <div class="equipos-grid">
+
+        <!-- CARD -->
+        <div class="equipo-card">
+            <div class="equipo-img">
+                <img src="/public/imagenes/futbol_fismat.jpeg" alt="Fútbol">
+                <span class="score blue">Pasión en la cancha.</span>
+            </div>
+
+            <div class="equipo-info">
+                <h3><i data-lucide="sport-shoe"></i>  Fútbol</h3>
+                <p>FisMat</p>
+
+                <div class="detalle">
+                    <p> <i class="fa-solid fa-map-pin"></i> Cancha Principal</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD -->
+        <div class="equipo-card">
+            <div class="equipo-img">
+                <img src="/public/imagenes/basquet1fismat.jpeg" alt="Basketbol">
+                <span class="score blue">Encesta tu destino.</span>
+            </div>
+
+            <div class="equipo-info">
+                <h3>
+                    <i data-lucide="shopping-basket"></i>  Basketbol</h3>
+                <p>FisMat y Actuaria</p>
+
+                <div class="detalle">
+                    <p> <i class="fa-solid fa-map-pin"></i> Gimnasio Universitario</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- CARD -->
+        <div class="equipo-card">
+            <div class="equipo-img">
+                <img src="img/voley.jpg" alt="Voleibol">
+                <span class="score blue">Tu red, tu fuerza.</span>
+            </div>
+
+            <div class="equipo-info">
+                <h3> <i data-lucide="volleyball"></i> Voleibol</h3>
+                <p>FisMat</p>
+
+                <div class="detalle">
+                    <p> <i class="fa-solid fa-map-pin"></i> Cancha de Voleibol</p>
+                </div>
+            </div>
+        </div>
+        <!-- CARD -->
+        <div class="equipo-card">
+            <div class="equipo-img">
+                <img src="/public/imagenes/ajedrez_fismat.jpeg" alt="Ajedrez">
+                <span class="score blue">Tu jugada maestra.</span>
+            </div>
+
+            <div class="equipo-info">
+                <h3><i data-lucide="chess-rook"></i>   Ajedrez</h3>
+                <p>FisMat</p>
+
+                <div class="detalle">
+                    <p> <i class="fa-solid fa-map-pin"></i> Salon Recreativo</p>
+                </div>
+            </div>
+        </div>
+        <!-- CARD -->
+        <div class="equipo-card">
+            <div class="equipo-img">
+                <img src="img/Olifis.jpg" alt="Olimpiada_Fisica">
+                <span class="score blue">Desafiando las leyes</span>
+            </div>
+
+            <div class="equipo-info">
+                <h3> <i data-lucide="book-open"></i>  Olimpiada de Fisica</h3>
+                
+
+                <div class="detalle">
+                   
+                    <p> <i class="fa-solid fa-map-pin"></i> Facultad de Ciencias Fisico-Matematicas UMSNH</p>
+                </div>
+            </div>
+        </div>
+        <!-- CARD -->
+        <div class="equipo-card">
+            <div class="equipo-img">
+                <img src="img/olicop.jpg" alt="Olimpiada_Computacion">
+                <span class="score blue">Programa el futuro.</span>
+            </div>
+
+            <div class="equipo-info">
+                <h3><i data-lucide="cpu"></i>  Olimpiada de Computación</h3>
+                
+
+                <div class="detalle">
+                   
+                    <p> <i class="fa-solid fa-map-pin"></i> Facultad de Ciencias Fisico-Matematicas UMSNH</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- CTA -->
+    <div class="equipos-cta">
+        <h3>¿Quieres ser parte del equipo?</h3>
+        <p>Las inscripciones están abiertas</p>
+        <a href="https://chat.whatsapp.com/EsPIgv2Lps3D1z6bB9BJFd?mode=gi_t">
+            <button class="btn-main">Únete al Club Deportivo</button>
+        </a>
+    </div>
+
+</section>
+
+
+</Layout>

@@ -1,0 +1,182 @@
+---
+import Layout from '../layouts/MainLayout.astro';
+import '/public/css/exalumnos.css';
+---
+
+<Layout title="exalumnos">
+            <div class="instalaciones-hero">
+        <span class="badge">Egresados</span>
+        <h1>Comunidad de Exalumnos</h1>
+        <p>
+            Nuestros egresados destacan en diversos sectores
+        </p>
+
+        
+    </div>
+
+
+    <section class="egresados">
+
+    
+
+    <!-- CARDS -->
+    <div class="egresados-grid">
+
+        <div class="eg-card blue">
+            <h3>35%</h3><h2>%</h2>
+            <h4>Tecnología e Innovación</h4>
+            <p>Empresas tecnológicas</p>
+            <div class="chips">
+                <span>Google</span><span>Meta</span><span>Microsoft</span>
+            </div>
+        </div>
+
+        <div class="eg-card red">
+            <h3>25%</h3><h2>%</h2>
+            <h4>Sector Financiero</h4>
+            <p>Análisis financiero</p>
+            <div class="chips">
+                <span>JP Morgan</span><span>Goldman Sachs</span>
+            </div>
+        </div>
+
+        <div class="eg-card blue">
+            <h3>30%</h3><h2>%</h2>
+            <h4>Academia</h4>
+            <p>Investigación</p>
+            <div class="chips">
+                <span>MIT</span><span>Stanford</span>
+            </div>
+        </div>
+
+        <div class="eg-card red">
+            <h3>10%</h3><h2>%</h2>
+            <h4>Consultoría</h4>
+            <p>Análisis estratégico</p>
+            <div class="chips">
+                <span>McKinsey</span><span>Deloitte</span>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- GRÁFICAS -->
+    <div class="charts">
+
+        <div class="chart-card">
+            <h4>Distribución por Sector</h4>
+            <canvas id="pieChart"></canvas>
+        </div>
+
+        <div class="chart-card">
+            <h4>Salario Promedio (USD)</h4>
+            <canvas id="barChart"></canvas>
+        </div>
+
+    </div>
+
+</section>
+
+<!-- Chart.js -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="public/js/charts.js" defer></script>   
+
+
+
+<section class="success-stories">
+    <div class="section-title">
+        <h2>Historias de Éxito</h2>
+    </div>
+    
+    <div class="stories-grid">
+        <div class="story-card">
+            <div class="story-img" style="background-image: url('imagenes/profesor_fismat1.jpeg');"></div>
+            <div class="story-info">
+                <span class="story-badge bg-navy">2010 • 15 publicaciones</span>
+                <h3>Dr. Carlos Martínez</h3>
+                <p class="role">Investigador Principal • CERN</p>
+                <p class="desc">Lidera investigaciones en física de partículas y ha contribuido al descubrimiento del bosón de Higgs.</p>
+                <a href="#" class="read-more">Leer historia completa ></a>
+            </div>
+        </div>
+        </div>
+
+    <div class="research-highlight-tag">
+        <span class="tag-blue"><i class="fas fa-microscope"></i> Investigación Destacada</span>
+    </div>
+
+    <div class="section-title">
+        <h2>Tesis y Proyectos Destacados</h2>
+        <p>Investigaciones de nuestros egresados que han transformado sus campos de estudio</p>
+    </div>
+
+    <div class="thesis-grid">
+        <div class="thesis-card border-navy">
+            <img src="proyecto1.jpg" alt="Tesis" class="thesis-thumb">
+            <div class="thesis-details">
+                <span class="thesis-badge">2023 • Mención Honorífica</span>
+                <h4>Algoritmos Cuánticos para Optimización de Redes Neuronales</h4>
+                <p><strong>Dr. Roberto Valencia</strong> • Doctorado en Ingeniería Física</p>
+                <a href="#" class="pdf-link"><i class="far fa-file-pdf"></i> Leer resumen completo</a>
+            </div>
+        </div>
+        </div>
+</section>
+
+
+
+
+
+
+
+
+<section class="map-section">
+
+    <!-- HEADER -->
+    <div class="map-header">
+        <span class="badge blue">Presencia Global</span>
+        <h2>Nuestros Egresados en el Mundo</h2>
+        <p>Más de 5,000 exalumnos transformando el mundo</p>
+    </div>
+
+    <!-- CONTENEDOR -->
+    <div class="map-container">
+
+        <!-- MAPA (PLACEHOLDER) -->
+        <div class="map-placeholder">
+            <p>Aquí irá el mapa interactivo 🌍</p>
+        </div>
+
+        <!-- STATS -->
+        <div class="map-stats">
+            <div><h3>40+</h3><p>Países</p></div>
+            <div><h3>5000+</h3><p>Egresados</p></div>
+            <div><h3>150+</h3><p>Instituciones</p></div>
+            <div><h3>6</h3><p>Continentes</p></div>
+        </div>
+
+    </div>
+
+    <!-- CTA -->
+    <div class="map-cta">
+        <h3>Red de Egresados</h3>
+        <p>Más de 5,000 exalumnos formando una red global</p>
+
+        <div class="cta-buttons">
+            <a href="">
+                <button class="btn-primary">
+                    Únete a la Red
+                </button>
+            </a>
+            <a href="">
+                <button class="btn-secondary">
+                    Ver Directorio
+                </button>
+            </a>
+        </div>
+    </div>
+
+</section>
+    <script src="/public/js/exalumnos.js" defer></script>
+
+</Layout>
