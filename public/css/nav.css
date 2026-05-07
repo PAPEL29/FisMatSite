@@ -26,6 +26,52 @@ body {
         display: none;
     }
 }
+/*--------navbar para movil-------------*/
+/* 🔥 MOBILE */
+@media (max-width: 768px) {
+
+    /* mostrar botón */
+    .menu-toggle {
+        display: block;
+        position: absolute;
+        top: 15px;
+        right: 20px;
+    }
+
+    /* ocultar menú */
+    .menu {
+        display: none;
+        flex-direction: column;
+        background: #1e3a8a;
+        position: absolute;
+        top: 60px;
+        right: 20px;
+        width: 200px;
+        border-radius: 10px;
+        padding: 10px;
+    }
+
+    /* cuando está activo */
+    .menu.active {
+        display: flex;
+    }
+
+    /* submenu en móvil */
+    .submenu {
+        position: relative;
+        background: #334155;
+        color: white;
+    }
+
+    .submenu a {
+        color: white;
+    }
+
+    .dropdown:hover .submenu {
+        display: none;
+    }
+}
+
 
 .navbar ul {
     display: flex;
